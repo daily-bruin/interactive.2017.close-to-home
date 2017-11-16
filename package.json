@@ -1,0 +1,9 @@
+{
+  "name": "enterprise",
+  "version": "1.0.0",
+  "description": "Daily Bruin Enterprise project for Fall 2017.",
+  "main": "index.js",
+  "repository": "https://github.com/daily-bruin/enterprise.git",
+  "author": "Daily Bruin <online@dailybruin.com>",
+  "license": "AGPL"
+}
