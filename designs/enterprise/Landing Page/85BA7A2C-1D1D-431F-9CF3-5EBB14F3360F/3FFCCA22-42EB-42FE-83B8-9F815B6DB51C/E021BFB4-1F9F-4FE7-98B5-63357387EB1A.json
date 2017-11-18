@@ -22,11 +22,11 @@
     "_class": "rect",
     "constrainProportions": false,
     "height": 62,
-    "width": 1033,
+    "width": 800,
     "x": 0,
     "y": 79
   },
-  "glyphBounds": "{{1, 4}, {991, 59}}",
+  "glyphBounds": "{{1, 4}, {767, 59}}",
   "heightIsClipped": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,

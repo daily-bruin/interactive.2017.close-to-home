@@ -11,6 +11,15 @@
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
+      {
+        "_class": "exportFormat",
+        "absoluteSize": 0,
+        "fileFormat": "png",
+        "name": "",
+        "namingScheme": 0,
+        "scale": 1,
+        "visibleScaleType": 0
+      }
     ],
     "includedLayerIds": [
     ],
@@ -20,12 +29,12 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 4264,
+    "height": 4326,
     "width": 1440,
     "x": -3385,
     "y": -370
   },
-  "hasBackgroundColor": false,
+  "hasBackgroundColor": true,
   "hasClickThrough": true,
   "horizontalRulerData": {
     "_class": "rulerData",
@@ -44,6 +53,10 @@
     {
       "class": "group",
       "id": "6330505D-757E-4182-84C6-B12149B8C20E"
+    },
+    {
+      "class": "group",
+      "id": "F550ED12-1622-47D3-8F22-23A3DDA65081"
     },
     {
       "class": "text",

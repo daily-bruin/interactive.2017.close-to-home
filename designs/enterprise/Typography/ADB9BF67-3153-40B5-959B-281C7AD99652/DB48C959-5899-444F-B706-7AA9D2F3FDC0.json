@@ -1,0 +1,47 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGUlNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFQcIDxAcHR4fJSsxNDhAQUJDREhMTlUkbnVsbNMJCgsMDQ5YTlNTdHJpbmdWJGNsYXNzXE5TQXR0cmlidXRlc4ACgBSAA28QFwBoADIAICAUACAAVABoAGkAcwAgAGkAcwAgAGEAIABzAHUAYgB0AGkAdABsAGXTERIKExcbV05TLmtleXNaTlMub2JqZWN0c6MUFRaABIAFgAajGBkagAeACYALgBNXTlNDb2xvcl8QEE5TUGFyYWdyYXBoU3R5bGVfEB9NU0F0dHJpYnV0ZWRTdHJpbmdGb250QXR0cmlidXRl0yAhCiIjJFVOU1JHQlxOU0NvbG9yU3BhY2VPECcwLjI5MDIyMTYzMTUgMC4yOTAxNzUyODg5IDAuMjkwMjM3NDU2NgAQAYAI0iYnKClaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9yoigqWE5TT2JqZWN00ywKLS4vMFpOU1RhYlN0b3BzW05TQWxpZ25tZW50gACAChAE0iYnMjNfEBBOU1BhcmFncmFwaFN0eWxlojIq0go1NjdfEBpOU0ZvbnREZXNjcmlwdG9yQXR0cmlidXRlc4ASgAzTERIKOTw/ojo7gA2ADqI9PoAPgBCAEV8QE05TRm9udFNpemVBdHRyaWJ1dGVfEBNOU0ZvbnROYW1lQXR0cmlidXRlI0A+AAAAAAAAXxAPQXZlbmlyTmV4dC1Cb2xk0iYnRUZfEBNOU011dGFibGVEaWN0aW9uYXJ5o0VHKlxOU0RpY3Rpb25hcnnSJidJSl8QEE5TRm9udERlc2NyaXB0b3KiSypfEBBOU0ZvbnREZXNjcmlwdG9y0iYnR02iRyrSJidPUF8QEk5TQXR0cmlidXRlZFN0cmluZ6JRKl8QEk5TQXR0cmlidXRlZFN0cmluZ18QD05TS2V5ZWRBcmNoaXZlctFUVVRyb290gAEACAARABoAIwAtADIANwBPAFUAXABlAGwAeQB7AH0AfwCwALcAvwDKAM4A0ADSANQA2ADaANwA3gDgAOgA+wEdASQBKgE3AWEBYwFlAWoBdQF+AYYBiQGSAZkBpAGwAbIBtAG2AbsBzgHRAdYB8wH1AfcB/gIBAgMCBQIIAgoCDAIOAiQCOgJDAlUCWgJwAnQCgQKGApkCnAKvArQCtwK8AtEC1ALpAvsC/gMDAAAAAAAAAgEAAAAAAAAAVgAAAAAAAAAAAAAAAAAAAwU="
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "DB48C959-5899-444F-B706-7AA9D2F3FDC0",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 41,
+    "width": 302,
+    "x": 50,
+    "y": 252
+  },
+  "glyphBounds": "{{0, 0}, {302, 41}}",
+  "heightIsClipped": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 0,
+  "name": "h2 — This is a subti",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "sharedObjectID": "8AB6138B-0662-4B06-827B-BC9D597013EC"
+  },
+  "textBehaviour": 0
+}

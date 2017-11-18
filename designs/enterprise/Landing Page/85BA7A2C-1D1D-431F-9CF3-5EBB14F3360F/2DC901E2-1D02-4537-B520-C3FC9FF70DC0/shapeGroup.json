@@ -13,11 +13,11 @@
   },
   "frame": {
     "_class": "rect",
-    "constrainProportions": false,
+    "constrainProportions": true,
     "height": 540,
     "width": 540,
-    "x": 780,
-    "y": 2008
+    "x": 779,
+    "y": 2100
   },
   "hasClickThrough": false,
   "hasClippingMask": false,

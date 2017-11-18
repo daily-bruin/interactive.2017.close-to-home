@@ -1,0 +1,47 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGUlNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFQcIDxAcHR4fJSsxNDhAQUJDREhMTlUkbnVsbNMJCgsMDQ5YTlNTdHJpbmdWJGNsYXNzXE5TQXR0cmlidXRlc4ACgBSAA28QKgBTAGsAZQB0AGMAaAAgAFcAaQByAGUAZgByAGEAbQBpAG4AZwAgAEsAaQB0ACAgFAAgAHYAMQAuADIAICAUACAAVAB5AHAAbwBnAHIAYQBwAGgAedMREgoTFxtXTlMua2V5c1pOUy5vYmplY3RzoxQVFoAEgAWABqMYGRqAB4AJgAuAE1dOU0NvbG9yXxAQTlNQYXJhZ3JhcGhTdHlsZV8QH01TQXR0cmlidXRlZFN0cmluZ0ZvbnRBdHRyaWJ1dGXTICEKIiMkVU5TUkdCXE5TQ29sb3JTcGFjZU8QJzAuMjkwMjIxNjMxNSAwLjI5MDE3NTI4ODkgMC4yOTAyMzc0NTY2ABABgAjSJicoKVokY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiKCpYTlNPYmplY3TTLAotLi8wWk5TVGFiU3RvcHNbTlNBbGlnbm1lbnSAAIAKEATSJicyM18QEE5TUGFyYWdyYXBoU3R5bGWiMirSCjU2N18QGk5TRm9udERlc2NyaXB0b3JBdHRyaWJ1dGVzgBKADNMREgo5PD+iOjuADYAOoj0+gA+AEIARXxATTlNGb250U2l6ZUF0dHJpYnV0ZV8QE05TRm9udE5hbWVBdHRyaWJ1dGUjQEIAAAAAAABfEA9BdmVuaXJOZXh0LUJvbGTSJidFRl8QE05TTXV0YWJsZURpY3Rpb25hcnmjRUcqXE5TRGljdGlvbmFyedImJ0lKXxAQTlNGb250RGVzY3JpcHRvcqJLKl8QEE5TRm9udERlc2NyaXB0b3LSJidHTaJHKtImJ09QXxASTlNBdHRyaWJ1dGVkU3RyaW5nolEqXxASTlNBdHRyaWJ1dGVkU3RyaW5nXxAPTlNLZXllZEFyY2hpdmVy0VRVVHJvb3SAAQAIABEAGgAjAC0AMgA3AE8AVQBcAGUAbAB5AHsAfQB/ANYA3QDlAPAA9AD2APgA+gD+AQABAgEEAQYBDgEhAUMBSgFQAV0BhwGJAYsBkAGbAaQBrAGvAbgBvwHKAdYB2AHaAdwB4QH0AfcB/AIZAhsCHQIkAicCKQIrAi4CMAIyAjQCSgJgAmkCewKAApYCmgKnAqwCvwLCAtUC2gLdAuIC9wL6Aw8DIQMkAykAAAAAAAACAQAAAAAAAABWAAAAAAAAAAAAAAAAAAADKw=="
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "9A2FFAA8-0326-4843-A3F2-6EB9B0C8370A",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 49,
+    "width": 769,
+    "x": 50,
+    "y": 50
+  },
+  "glyphBounds": "{{0, 0}, {769, 49.1759033203125}}",
+  "heightIsClipped": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 0,
+  "name": "Sketch Wireframing K",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "sharedObjectID": "8ED1DFDF-DFF2-42D1-BD43-3558439A68F3"
+  },
+  "textBehaviour": 0
+}

@@ -22,11 +22,11 @@
     "constrainProportions": false,
     "height": 1024,
     "width": 1440,
-    "x": -1845,
-    "y": -370
+    "x": -3385,
+    "y": 4504
   },
   "hasBackgroundColor": false,
-  "hasClickThrough": true,
+  "hasClickThrough": false,
   "horizontalRulerData": {
     "_class": "rulerData",
     "base": 0,
@@ -39,7 +39,7 @@
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 2,
+  "layerListExpandedType": 1,
   "layers": [
     {
       "class": "shapeGroup",

@@ -22,7 +22,7 @@
     "_class": "rect",
     "constrainProportions": false,
     "height": 94,
-    "width": 32,
+    "width": 25,
     "x": 0,
     "y": 0
   },
@@ -61,5 +61,5 @@
       "verticalAlignment": 0
     }
   },
-  "textBehaviour": 0
+  "textBehaviour": 1
 }
