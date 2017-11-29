@@ -7,7 +7,9 @@
   "author": "Daily Bruin <online@dailybruin.com>",
   "license": "AGPL-3.0",
   "babel": {
-    "presets": ["env"]
+    "presets": [
+      "env"
+    ]
   },
   "eslintConfig": {
     "extends": "uclaradio"
@@ -27,7 +29,10 @@
     ]
   },
   "lint-staged": {
-    "*.{js,scss,json,md}": ["prettier --write", "git add"]
+    "*.{js,scss,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "devDependencies": {
     "@uclaradio/stylelint-config-uclaradio": "^1.0.5",
@@ -55,5 +60,8 @@
     "stylelint": "^8.2.0",
     "webpack": "^3.8.1",
     "webpack-stream": "^4.0.0"
+  },
+  "dependencies": {
+    "glup": "^1.0.14"
   }
 }

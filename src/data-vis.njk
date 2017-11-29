@@ -1,4 +1,17 @@
-{% block interactiveBarChart %}
-  <div class="interactive-bar-chart"></div>
-  <script src="js/interactive-bar-chart.js"></script>
+{% extends "./nunjucks/templates/default.njk" %}
+
+{% block content %}
+  <h1>data vis stuff</h1>
+  <div class="interactive-bar-chart-container">
+      <p>What percent do you think blah blah blah</p>
+      <p>Drag the bar below to make your guess</p>
+    <div class="interactive-bar-chart"></div>
+    <ul class="percent-guide">
+      <li>0%</li>
+      <li>25%</li>
+      <li>50%</li>
+      <li>75%</li>
+      <li>100%</li>
+    </ul>
+  </div>
 {% endblock %}
