@@ -1,0 +1,47 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "MSAttributedString",
+    "archivedAttributedString": {
+      "_archive": "YnBsaXN0MDDUAQIDBAUGUlNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFQcIDxAcHR4fJSsxNDhAQUJDREhMTlUkbnVsbNMJCgsMDQ5YTlNTdHJpbmdWJGNsYXNzXE5TQXR0cmlidXRlc4ACgBSAA28QHABoADMAICAUACAAVABoAGkAcwAgAGkAcwAgAGEAIABzAGUAYwB0AGkAbwBuACAAdABpAHQAbABl0xESChMXG1dOUy5rZXlzWk5TLm9iamVjdHOjFBUWgASABYAGoxgZGoAHgAmAC4ATV05TQ29sb3JfEBBOU1BhcmFncmFwaFN0eWxlXxAfTVNBdHRyaWJ1dGVkU3RyaW5nRm9udEF0dHJpYnV0ZdMgIQoiIyRVTlNSR0JcTlNDb2xvclNwYWNlTxAnMC4yOTAyMjE2MzE1IDAuMjkwMTc1Mjg4OSAwLjI5MDIzNzQ1NjYAEAGACNImJygpWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqIoKlhOU09iamVjdNMsCi0uLzBaTlNUYWJTdG9wc1tOU0FsaWdubWVudIAAgAoQBNImJzIzXxAQTlNQYXJhZ3JhcGhTdHlsZaIyKtIKNTY3XxAaTlNGb250RGVzY3JpcHRvckF0dHJpYnV0ZXOAEoAM0xESCjk8P6I6O4ANgA6iPT6AD4AQgBFfEBNOU0ZvbnRTaXplQXR0cmlidXRlXxATTlNGb250TmFtZUF0dHJpYnV0ZSNAOAAAAAAAAF8QD0F2ZW5pck5leHQtQm9sZNImJ0VGXxATTlNNdXRhYmxlRGljdGlvbmFyeaNFRypcTlNEaWN0aW9uYXJ50iYnSUpfEBBOU0ZvbnREZXNjcmlwdG9yoksqXxAQTlNGb250RGVzY3JpcHRvctImJ0dNokcq0iYnT1BfEBJOU0F0dHJpYnV0ZWRTdHJpbmeiUSpfEBJOU0F0dHJpYnV0ZWRTdHJpbmdfEA9OU0tleWVkQXJjaGl2ZXLRVFVUcm9vdIABAAgAEQAaACMALQAyADcATwBVAFwAZQBsAHkAewB9AH8AugDBAMkA1ADYANoA3ADeAOIA5ADmAOgA6gDyAQUBJwEuATQBQQFrAW0BbwF0AX8BiAGQAZMBnAGjAa4BugG8Ab4BwAHFAdgB2wHgAf0B/wIBAggCCwINAg8CEgIUAhYCGAIuAkQCTQJfAmQCegJ+AosCkAKjAqYCuQK+AsECxgLbAt4C8wMFAwgDDQAAAAAAAAIBAAAAAAAAAFYAAAAAAAAAAAAAAAAAAAMP"
+    }
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "do_objectID": "3B646D82-2338-47BD-8C81-7404A0D668D8",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 33,
+    "width": 290,
+    "x": 50,
+    "y": 311
+  },
+  "glyphBounds": "{{0, 0}, {290, 33}}",
+  "heightIsClipped": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 0,
+  "name": "h3 — This is a secti",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "sharedObjectID": "C08D5B10-28BB-4AA5-9F36-9F3877518885"
+  },
+  "textBehaviour": 0
+}
