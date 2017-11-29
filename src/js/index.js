@@ -6,6 +6,9 @@ function setTitlePhotoHeight() {
   $('.title-photo').height($(window).height());
 }
 
-$(window).resize(setTitlePhotoHeight);
+// function hid
 
 setTitlePhotoHeight();
+
+$(window).resize(setTitlePhotoHeight);
+$(window).scroll();
