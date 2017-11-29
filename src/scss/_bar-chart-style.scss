@@ -1,7 +1,45 @@
 @charset "utf-8";
 .selection {
-  fill: steelblue;
+  fill: url(#diagonal-stripe-3);
   fill-opacity: 1;
+}
+.blink {
+  -webkit-animation: blink 1200ms infinite alternate;
+  -moz-animation: blink 1200ms infinite alternate;
+  -o-animation: blink 1200ms infinite alternate;
+  animation: blink 1200ms infinite alternate;
+}
+@-webkit-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-o-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 .interactive-bar-chart-container {
   background-color: #d3d3d3;
@@ -17,7 +55,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .percent-guide li {
   display: inline;
 }
