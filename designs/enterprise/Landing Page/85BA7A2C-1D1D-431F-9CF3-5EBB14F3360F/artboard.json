@@ -1,0 +1,117 @@
+{
+  "_class": "artboard",
+  "backgroundColor": {
+    "_class": "color",
+    "alpha": 1,
+    "blue": 1,
+    "green": 1,
+    "red": 1
+  },
+  "do_objectID": "85BA7A2C-1D1D-431F-9CF3-5EBB14F3360F",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+      {
+        "_class": "exportFormat",
+        "absoluteSize": 0,
+        "fileFormat": "png",
+        "name": "",
+        "namingScheme": 0,
+        "scale": 1,
+        "visibleScaleType": 0
+      }
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 4326,
+    "width": 1440,
+    "x": -3385,
+    "y": -370
+  },
+  "hasBackgroundColor": true,
+  "hasClickThrough": true,
+  "horizontalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  },
+  "includeBackgroundColorInExport": true,
+  "includeInCloudUpload": true,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 2,
+  "layers": [
+    {
+      "class": "group",
+      "id": "6330505D-757E-4182-84C6-B12149B8C20E"
+    },
+    {
+      "class": "group",
+      "id": "F550ED12-1622-47D3-8F22-23A3DDA65081"
+    },
+    {
+      "class": "text",
+      "id": "50D13593-4853-41FC-9872-4C1A070BF085"
+    },
+    {
+      "class": "text",
+      "id": "AE0D9C27-C617-4774-979B-A90ED0F96709"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "2DC901E2-1D02-4537-B520-C3FC9FF70DC0"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "5EC4A408-AC79-4821-9071-990AD798BAAB"
+    },
+    {
+      "class": "group",
+      "id": "7854D427-172C-4EC7-B740-85AC26D44202"
+    },
+    {
+      "class": "symbolInstance",
+      "id": "31C53FEE-E061-4766-A736-F1DFBED8E5CD"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "B60B8C22-9867-4AE8-9027-E4760678344D"
+    },
+    {
+      "class": "group",
+      "id": "3FFCCA22-42EB-42FE-83B8-9F815B6DB51C"
+    },
+    {
+      "class": "shapeGroup",
+      "id": "60416027-B050-4D14-A6E0-44FC979E588C"
+    }
+  ],
+  "name": "Landing Page",
+  "nameIsFixed": true,
+  "resizesContent": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "verticalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_class": "group",
+  "do_objectID": "3FFCCA22-42EB-42FE-83B8-9F815B6DB51C",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 477,
+    "width": 800,
+    "x": 120,
+    "y": 1156
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "text",
+      "id": "4967DCB5-FD89-4E11-B48A-EE5D55E0FC9A"
+    },
+    {
+      "class": "text",
+      "id": "E021BFB4-1F9F-4FE7-98B5-63357387EB1A"
+    },
+    {
+      "class": "text",
+      "id": "B4AFAF16-DFCB-4396-83DE-80F4A2E509CE"
+    },
+    {
+      "class": "text",
+      "id": "D3CA9F03-59AF-4A38-8527-F38174D9A57E"
+    }
+  ],
+  "name": "Dropcap",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}

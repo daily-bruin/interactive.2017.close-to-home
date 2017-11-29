@@ -25,6 +25,12 @@
           "singleQuote": true,
           "trailingComma": "es5"
         }
+      },
+      {
+        "files": ".{css,scss}",
+        "options": {
+          "singleQuote": false
+        }
       }
     ]
   },

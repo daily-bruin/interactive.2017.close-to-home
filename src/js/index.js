@@ -96,3 +96,9 @@ function brushmoveX() {
 brushX.on('brush', brushmoveX).on('end', brushendX);
 
 hello();
+
+function setTitlePhotoHeight() {
+  $('.title-photo').height($(window).height());
+}
+
+$(window).resize(setTitlePhotoHeight);

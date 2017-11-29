@@ -1,0 +1,110 @@
+{
+  "_class": "artboard",
+  "backgroundColor": {
+    "_class": "color",
+    "alpha": 1,
+    "blue": 1,
+    "green": 1,
+    "red": 1
+  },
+  "do_objectID": "ADB9BF67-3153-40B5-959B-281C7AD99652",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 1024,
+    "width": 1440,
+    "x": -571,
+    "y": -363
+  },
+  "grid": {
+    "_class": "simpleGrid",
+    "gridSize": 20,
+    "isEnabled": false,
+    "thickGridTimes": 10
+  },
+  "hasBackgroundColor": false,
+  "hasClickThrough": true,
+  "horizontalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  },
+  "includeBackgroundColorInExport": true,
+  "includeInCloudUpload": true,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "layers": [
+    {
+      "class": "text",
+      "id": "3BCBE2AD-FD43-403B-A875-25C300D75E14"
+    },
+    {
+      "class": "text",
+      "id": "DB48C959-5899-444F-B706-7AA9D2F3FDC0"
+    },
+    {
+      "class": "text",
+      "id": "3B646D82-2338-47BD-8C81-7404A0D668D8"
+    },
+    {
+      "class": "text",
+      "id": "0AFA1C37-6DE4-4409-BD3F-AF463FE4D2AC"
+    },
+    {
+      "class": "text",
+      "id": "9A2FFAA8-0326-4843-A3F2-6EB9B0C8370A"
+    },
+    {
+      "class": "text",
+      "id": "E54CDB84-6075-4ADE-8063-7698EEE7AA5D"
+    },
+    {
+      "class": "text",
+      "id": "4AFE035A-1438-4EAE-AD74-043A6623DB6B"
+    },
+    {
+      "class": "text",
+      "id": "9ABD4BEC-894D-424D-A544-F60E3C9E7E24"
+    },
+    {
+      "class": "text",
+      "id": "03D2CDA6-3FDB-4AC4-BC00-0D09F39C5092"
+    },
+    {
+      "class": "text",
+      "id": "1ECFEE48-7E2A-4197-868A-0CF1BF4FA006"
+    }
+  ],
+  "name": "Typography",
+  "nameIsFixed": true,
+  "resizesContent": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  },
+  "verticalRulerData": {
+    "_class": "rulerData",
+    "base": 0,
+    "guides": [
+    ]
+  }
+}
