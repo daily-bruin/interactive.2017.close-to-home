@@ -7,3 +7,5 @@ function setTitlePhotoHeight() {
 }
 
 $(window).resize(setTitlePhotoHeight);
+
+setTitlePhotoHeight();
