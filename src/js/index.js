@@ -8,7 +8,7 @@ const data = [
 ];
 
 const widthX = 800;
-const heightX = 200;
+const heightX = 100;
 const delim = 4;
 
 const scaleX = d3
@@ -60,6 +60,10 @@ svgbrushX
 
 function update() {
   svgbrushX.select('text').attr('class', '');
+  svgbrushX.select('text').style('fill', d => {
+    if (d.value < 0.955) return 'black';
+    return 'white';
+  });
   svgbrushX
     .call(brushX.move, d => [0, d.value].map(scaleX))
     .selectAll('text')
