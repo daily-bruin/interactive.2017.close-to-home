@@ -17,14 +17,28 @@
 .title-header {
   text-align: right;
   color: white;
-  margin: 20px;
+  margin: 75px;
+  margin-right: 5px;
+  margin-bottom: auto;
   font-family: 'Roboto Slab', serif;
+}
+
+.title-subhead {
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
 
 .white-line {
   height: 4px;
   width: 50px;
+  margin-right: 5px;
   background-color: white;
+}
+
+.byline {
+  position:relative;
+  margin-top: 15px;
+  margin-right: 5px;
 }
 
 .byline__author {
