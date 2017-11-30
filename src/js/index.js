@@ -9,3 +9,4 @@ function setTitlePhotoHeight() {
 setTitlePhotoHeight();
 
 $(window).resize(setTitlePhotoHeight);
+$(window).scroll();
