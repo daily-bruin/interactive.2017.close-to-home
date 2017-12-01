@@ -151,7 +151,6 @@ $(document).ready(() => {
     $('.handle--e').css('pointer-events', 'none');
     let resultString = 'It is ';
     const roundedGuess = d3.format('.0%')(data[0].value);
-    console.log(trueValue);
     if (roundedGuess < d3.format('.0%')(trueValue - 0.025))
       resultString += 'more than you expected';
     else if (roundedGuess > d3.format('.0%')(trueValue + 0.025))
