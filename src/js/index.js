@@ -1,6 +1,7 @@
 import hello from './module';
+
 const trueValue = 0.82;
-let data = [
+const data = [
   {
     index: 0,
     value: 0.5,
@@ -9,7 +10,7 @@ let data = [
 // 500 100
 const widthX = $('.interactive-bar-chart-container').width() * 0.9;
 const heightX = $('.interactive-bar-chart-container').height() * 0.23;
-const delim = 10;
+const delim = 0;
 
 const scaleX = d3
   .scaleLinear()
@@ -103,7 +104,6 @@ $(document).ready(() => {
   $('.guess-button').fadeOut(1);
   $('.guess-button').click(() => {
     $('.guess-button').remove();
-
     const svgY = d3
       .select('body')
       .select('.answer-bar-chart')
@@ -111,45 +111,31 @@ $(document).ready(() => {
       .attr('width', widthX)
       .attr('height', heightX)
       .append('g');
-
-    const brushY = d3
-      .brushX()
-      .extent((d, i) => [
-        [0, y(i) + delim / 2],
-        [widthX, y(i) + heightX / data.length - delim / 2],
-      ]);
-
-    const svgbrushY = svgY
-      .selectAll('.brush')
-      .data([
-        {
-          index: 0,
-          value: trueValue, // replace with actual precent
-        },
-      ])
-      .enter()
-      .append('g')
-      .attr('class', 'brush')
-      .append('g')
-      .call(brushX)
-      .call(brushX.move, d => [0, d.value].map(scaleX));
-
-    svgbrushY
+    svgY
+      .append('rect')
+      .style('fill', '#73b1ff')
+      .attr('x', '0')
+      .attr('width', 0)
+      .transition()
+      .duration(1200) // time in ms
+      .attr('width', () => widthX * trueValue)
+      .attr('y', '0')
+      .attr('height', 214)
+      .attr('stroke', 'white')
+      .attr('stroke-width', 1);
+    svgY
       .append('text')
-      .attr('x', d => scaleX(d.value) - 10)
-      .attr('y', (d, i) => y(i) + y(0.5))
-      .attr('dy', '.35em')
-      .attr('dx', d => {
-        if (d.value < 0.93) return 15;
-        return -33;
-      })
-      .style('fill', 'black')
-      .style('pointer-events', 'none')
-      .text(d => d3.format('.0%')(d.value))
-      .append('g');
+      .text(d3.format('.0%')(trueValue))
+      .attr('fill', 'black')
+      .attr('x', 0)
+      .transition()
+      .duration(1170) // time in ms
+      .attr('x', () => widthX * trueValue + 5)
+      .attr('y', 52);
 
     $('.handle--e').css('pointer-events', 'none');
-    let resultString = 'It is ';
+
+    let resultString = "It's ";
     const roundedGuess = d3.format('.0%')(data[0].value);
     if (roundedGuess < d3.format('.0%')(trueValue - 0.025))
       resultString += 'more than you expected';
@@ -159,6 +145,7 @@ $(document).ready(() => {
     $('.interactive-bar-chart-container').append(resultString);
   });
 });
+
 hello();
 
 function setTitlePhotoHeight() {
