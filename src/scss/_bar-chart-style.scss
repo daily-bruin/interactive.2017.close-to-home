@@ -1,7 +1,19 @@
 @charset "utf-8";
+.overlay {
+  cursor: default;
+  pointer-events: none;
+}
 .selection {
   fill: url(#diagonal-stripe-3);
   fill-opacity: 1;
+  cursor: default;
+  pointer-events: none;
+}
+.answer-bar-chart .selection {
+  fill: #73b1ff;
+}
+.handle--e {
+  cursor: col-resize;
 }
 .blink {
   -webkit-animation: blink 1200ms infinite alternate;
@@ -45,13 +57,19 @@
   background-color: #d3d3d3;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 25vw;
+  height: 400px;
+  width: auto;
+}
+.interactive-bar-chart-container * {
+  margin-top: 5px;
+}
+.answer-bar-chart {
+  pointer-events: none;
 }
 .percent-guide {
   list-style: none;
-  width: 800px;
+  width: 500px;
   display: flex;
   justify-content: space-between;
 }

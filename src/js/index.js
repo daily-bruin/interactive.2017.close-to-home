@@ -1,15 +1,15 @@
 import hello from './module';
-
-const data = [
+const trueValue = 0.82;
+let data = [
   {
     index: 0,
     value: 0.5,
   },
 ];
-
-const widthX = 800;
-const heightX = 100;
-const delim = 4;
+// 500 100
+const widthX = $('.interactive-bar-chart-container').width() * 0.9;
+const heightX = $('.interactive-bar-chart-container').height() * 0.23;
+const delim = 10;
 
 const scaleX = d3
   .scaleLinear()
@@ -18,7 +18,7 @@ const scaleX = d3
 
 const y = d3
   .scaleLinear()
-  .domain([0, data.length])
+  .domain([0, 1]) // data.length
   .rangeRound([0, heightX]);
 
 const svgX = d3
@@ -59,9 +59,10 @@ svgbrushX
   .append('g');
 
 function update() {
+  $('.guess-button').fadeIn('slow');
   svgbrushX.select('text').attr('class', '');
   svgbrushX.select('text').style('fill', d => {
-    if (d.value < 0.955) return 'black';
+    if (d.value < 0.93) return 'black';
     return 'white';
   });
   svgbrushX
@@ -69,7 +70,7 @@ function update() {
     .selectAll('text')
     .attr('x', d => scaleX(d.value) - 10)
     .attr('dx', d => {
-      if (d.value < 0.955) return 15;
+      if (d.value < 0.93) return 15;
       return -33;
     })
     .text(d => d3.format('.0%')(d.value));
@@ -98,7 +99,67 @@ function brushmoveX() {
 }
 
 brushX.on('brush', brushmoveX).on('end', brushendX);
+$(document).ready(() => {
+  $('.guess-button').fadeOut(1);
+  $('.guess-button').click(() => {
+    $('.guess-button').remove();
 
+    const svgY = d3
+      .select('body')
+      .select('.answer-bar-chart')
+      .append('svg')
+      .attr('width', widthX)
+      .attr('height', heightX)
+      .append('g');
+
+    const brushY = d3
+      .brushX()
+      .extent((d, i) => [
+        [0, y(i) + delim / 2],
+        [widthX, y(i) + heightX / data.length - delim / 2],
+      ]);
+
+    const svgbrushY = svgY
+      .selectAll('.brush')
+      .data([
+        {
+          index: 0,
+          value: trueValue, // replace with actual precent
+        },
+      ])
+      .enter()
+      .append('g')
+      .attr('class', 'brush')
+      .append('g')
+      .call(brushX)
+      .call(brushX.move, d => [0, d.value].map(scaleX));
+
+    svgbrushY
+      .append('text')
+      .attr('x', d => scaleX(d.value) - 10)
+      .attr('y', (d, i) => y(i) + y(0.5))
+      .attr('dy', '.35em')
+      .attr('dx', d => {
+        if (d.value < 0.93) return 15;
+        return -33;
+      })
+      .style('fill', 'black')
+      .style('pointer-events', 'none')
+      .text(d => d3.format('.0%')(d.value))
+      .append('g');
+
+    $('.handle--e').css('pointer-events', 'none');
+    let resultString = 'It is ';
+    const roundedGuess = d3.format('.0%')(data[0].value);
+    console.log(trueValue);
+    if (roundedGuess < d3.format('.0%')(trueValue - 0.025))
+      resultString += 'more than you expected';
+    else if (roundedGuess > d3.format('.0%')(trueValue + 0.025))
+      resultString += 'less than you expected';
+    else resultString += 'about what you expected';
+    $('.interactive-bar-chart-container').append(resultString);
+  });
+});
 hello();
 
 function setTitlePhotoHeight() {
