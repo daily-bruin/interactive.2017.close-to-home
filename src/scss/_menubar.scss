@@ -1,17 +1,16 @@
 .top-bar, .top-bar ul{
-  background-color: #dcddde;
+  background-color: #b5b6b7;
   margin: 0;
   padding: 0;
 }
 
 .db-logo1{
   margin: 5px;
-  border-right: 2px solid #bbb;
 }
 
 li a{
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 10px;
 }
 
@@ -22,4 +21,27 @@ li a:hover{
 
 .menu-text{
   font-size: 24px;
+  border-left: 2px solid white;
+}
+
+.menu-text:hover{
+  color: black;
+}
+
+.top-bar {
+	position:fixed;
+	top:0px;
+	width:100%;
+	color: white;
+	z-index:9999;
+	display: none;
+}
+
+.initial-top-bar{
+  position: fixed;
+  top:0px;
+	width:100%;
+	color: white;
+	z-index:9999;
+  background-color: #b5b6b7;
 }

@@ -66,5 +66,6 @@
     "stylelint-config-uclaradio": "^1.0.5",
     "webpack": "^3.8.1",
     "webpack-stream": "^4.0.0"
-  }
+  },
+  "dependencies": {}
 }
