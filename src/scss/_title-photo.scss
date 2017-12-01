@@ -4,41 +4,38 @@
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
-
   // height: 500px;
 }
 
 .db-logo {
-  margin: 20px;
-  height: 100px;
-  width: 100px;
+  margin: 1.25rem;
+  height: 6.25rem;
+  width: 6.25rem;
 }
 
 .title-header {
   text-align: right;
   color: white;
-  margin: 75px;
-  margin-right: 5px;
+  margin: 4.6875rem;
+  margin-right: 0.325rem;
   margin-bottom: auto;
   font-family: 'Roboto Slab', serif;
 }
 
 .title-subhead {
-  margin-top: -5px;
-  margin-bottom: 5px;
+  margin-top: -0.3125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .white-line {
-  height: 4px;
-  width: 50px;
-  margin-right: 5px;
+  height: 0.25rem;
+  width: 3.125rem;
+  margin-right: 0.3125rem;
   background-color: white;
 }
 
 .byline {
-  position:relative;
-  margin-top: 15px;
-  margin-right: 5px;
+  margin-top: 0.9375rem;
 }
 
 .byline__author {
