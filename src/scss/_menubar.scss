@@ -1,47 +1,41 @@
-.top-bar, .top-bar ul{
+.top-bar,
+.top-bar ul {
   background-color: #b5b6b7;
   margin: 0;
   padding: 0;
 }
 
-.db-logo1{
+.db-logo1 {
   margin: 5px;
 }
 
-li a{
+li a {
   text-decoration: none;
   color: white;
   margin: 10px;
 }
 
-li a:hover{
+li a:hover {
   color: black;
   text-decoration: underline;
 }
 
-.menu-text{
+.menu-text {
   font-size: 24px;
   border-left: 2px solid white;
 }
 
-.menu-text:hover{
+.menu-text:hover {
   color: black;
 }
 
 .top-bar {
-	position:fixed;
-	top:0px;
-	width:100%;
-	color: white;
-	z-index:9999;
-	display: none;
+  width: 100%;
+  color: white;
+  z-index: 9999;
 }
 
-.initial-top-bar{
+.fix-bar {
   position: fixed;
-  top:0px;
-	width:100%;
-	color: white;
-	z-index:9999;
-  background-color: #b5b6b7;
+  top: 0;
 }
