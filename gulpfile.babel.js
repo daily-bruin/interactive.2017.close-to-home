@@ -7,6 +7,12 @@ import imagemin from 'gulp-imagemin';
 // HTML
 import htmlmin from 'gulp-htmlmin';
 
+// Markdown
+import frontMatter from 'gulp-front-matter';
+import marked from 'gulp-marked';
+import wrap from 'gulp-wrap';
+import fs from 'fs';
+
 // Styling related packages
 import sass from 'gulp-sass';
 import postcss from 'gulp-postcss';
@@ -122,6 +128,22 @@ gulp.task('html:prod', () =>
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('prod/'))
 );
+
+gulp.task('pages:md', () => {
+  gulp
+    .src('content/articles/*.md')
+    .pipe(frontMatter())
+    .pipe(marked())
+    .pipe(
+      wrap(
+        data =>
+          fs.readFileSync(`./src/${data.file.frontMatter.layout}`).toString(),
+        null,
+        { engine: 'nunjucks' }
+      )
+    )
+    .pipe(gulp.dest('build/'));
+});
 
 gulp.task(
   'development',
