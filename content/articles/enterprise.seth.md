@@ -1,3 +1,5 @@
+Alumni remembers conveniences, troubles of living out of van
+
 Every morning during the summer of 2010, Seth Wing walked to Kerckhoff Hall from
 his van, parked on Veteran Avenue,added commas with a cup of instant oatmeal in
 his hand, ready to start the day.
