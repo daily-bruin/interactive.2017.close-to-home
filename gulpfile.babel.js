@@ -135,15 +135,6 @@ gulp.task('pages:md', () => {
     .src('content/articles/*.md')
     .pipe(frontMatter())
     .pipe(marked())
-    .pipe(
-      wrap(
-        data =>
-          fs.readFileSync(`./src/${data.file.frontMatter.layout}`).toString(),
-        null,
-        { engine: 'nunjucks' }
-      )
-    )
-    .pipe(unescape())
     .pipe(gulp.dest('build/'));
 });
 
