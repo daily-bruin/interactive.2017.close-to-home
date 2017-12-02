@@ -138,7 +138,7 @@ gulp.task('pages:md', () => {
       wrap(
         data =>
           fs.readFileSync(`./src/${data.file.frontMatter.layout}`).toString(),
-        null,
+        { escape: '' },
         { engine: 'nunjucks' }
       )
     )
