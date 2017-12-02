@@ -10,13 +10,15 @@ setTitlePhotoHeight();
 
 $(window).resize(setTitlePhotoHeight);
 
-$(window).waypoint(function(direction) {
-  $('.title-header').show();
+$(window).waypoint(() => {
+  $('.title-header').fadeIn();
+  $('.db-logo').fadeIn();
 });
 
 $(window).waypoint(
-  function(direction) {
-    $('.title-header').hide();
+  () => {
+    $('.title-header').fadeOut();
+    $('.db-logo').fadeOut();
   },
   { offset: -1 }
 );
