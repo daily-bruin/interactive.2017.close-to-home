@@ -6,9 +6,17 @@ function setTitlePhotoHeight() {
   $('.title-photo').height($(window).height());
 }
 
-// function hid
-
 setTitlePhotoHeight();
 
 $(window).resize(setTitlePhotoHeight);
-$(window).scroll();
+
+$(window).waypoint(function(direction) {
+  $('.title-header').show();
+});
+
+$(window).waypoint(
+  function(direction) {
+    $('.title-header').hide();
+  },
+  { offset: -1 }
+);
