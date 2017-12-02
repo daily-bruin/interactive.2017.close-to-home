@@ -8,7 +8,6 @@ import imagemin from 'gulp-imagemin';
 import htmlmin from 'gulp-htmlmin';
 
 // Markdown
-import frontMatter from 'gulp-front-matter';
 import marked from 'gulp-marked';
 
 // Styling related packages
@@ -130,7 +129,6 @@ gulp.task('html:prod', () =>
 gulp.task('markdown', () => {
   gulp
     .src('content/articles/*.md')
-    .pipe(frontMatter())
     .pipe(marked())
     .pipe(gulp.dest('content/articles/'));
 });

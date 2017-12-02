@@ -1,8 +1,3 @@
----
-title: Title
-layout: test-layout.njk
----
-
 Beginning
 
 Going to sleep each night brings a new dream, and a new adventure.
