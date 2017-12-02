@@ -14,7 +14,7 @@ const delim = 0;
 
 const scaleX = d3
   .scaleLinear()
-  .domain([0, 1])
+  .domain([0.001, 1])
   .rangeRound([0, widthX]);
 
 const y = d3
@@ -59,6 +59,10 @@ svgbrushX
   .text('\u25C4  \u25BA')
   .append('g');
 
+$('.handle--w').css('pointer-events', 'none');
+$('.handle--e')
+  .attr('width', 30)
+  .attr('x', $('.handle--e').attr('x') - 12);
 function update() {
   $('.guess-button').fadeIn('slow');
   svgbrushX.select('text').attr('class', '');
@@ -75,6 +79,9 @@ function update() {
       return -33;
     })
     .text(d => d3.format('.0%')(d.value));
+  $('.handle--e')
+    .attr('width', 30)
+    .attr('x', $('.handle--e').attr('x') - 12);
 }
 
 function brushendX() {
@@ -133,7 +140,7 @@ $(document).ready(() => {
       .attr('x', () => widthX * trueValue + 5)
       .attr('y', 52);
 
-    $('.handle--e').css('pointer-events', 'none');
+    $('.handle').css('pointer-events', 'none');
 
     let resultString = "It's ";
     const roundedGuess = d3.format('.0%')(data[0].value);

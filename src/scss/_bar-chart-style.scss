@@ -4,7 +4,9 @@
   cursor: default;
   pointer-events: none;
 }
-
+.handle--w {
+  pointer-events: none;
+}
 .selection {
   fill: url("#diagonal-stripe-3");
   fill-opacity: 1;
@@ -64,21 +66,21 @@
   width: auto;
 }
 
-.interactive-bar-chart-container * {
-  margin-top: 5px;
-}
-
 .answer-bar-chart {
   pointer-events: none;
 }
 
 .percent-guide {
   list-style: none;
-  width: 500px;
   display: flex;
+  width: 540px;
+  margin-left: 0;
   justify-content: space-between;
 }
-
+.interactive-bar-chart-container * {
+  margin-top: 5px;
+}
 .percent-guide li {
   display: inline;
+  width: 20px;
 }
