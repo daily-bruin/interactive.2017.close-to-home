@@ -10,9 +10,6 @@ import htmlmin from 'gulp-htmlmin';
 // Markdown
 import frontMatter from 'gulp-front-matter';
 import marked from 'gulp-marked';
-import wrap from 'gulp-wrap';
-import fs from 'fs';
-import unescape from 'gulp-unescape-html';
 
 // Styling related packages
 import sass from 'gulp-sass';
@@ -130,12 +127,12 @@ gulp.task('html:prod', () =>
     .pipe(gulp.dest('prod/'))
 );
 
-gulp.task('pages:md', () => {
+gulp.task('markdown', () => {
   gulp
     .src('content/articles/*.md')
     .pipe(frontMatter())
     .pipe(marked())
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('content/articles/'));
 });
 
 gulp.task(
