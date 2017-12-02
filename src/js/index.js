@@ -1,13 +1,13 @@
 import hello from './module';
 
-const trueValue = 0.82;
+const trueValue = 0.42;
 const data = [
   {
     index: 0,
     value: 0.5,
   },
 ];
-// 500 100
+
 const widthX = $('.interactive-bar-chart-container').width() * 0.9;
 const heightX = $('.interactive-bar-chart-container').height() * 0.23;
 const delim = 0;
@@ -53,18 +53,32 @@ svgbrushX
   .attr('y', (d, i) => y(i) + y(0.5))
   .attr('dy', '.35em')
   .attr('dx', -8)
-  .attr('class', 'blink')
+  .attr('class', 'left-arrow')
   .style('fill', 'black')
   .style('pointer-events', 'none')
-  .text('\u25C4  \u25BA')
+  .text('\u25C4 ')
+  .append('g');
+svgbrushX
+  .append('text')
+  .attr('x', d => scaleX(d.value) + 10)
+  .attr('y', (d, i) => y(i) + y(0.5))
+  .attr('dy', '.35em')
+  .attr('dx', -7)
+  .attr('class', 'right-arrow')
+  .style('fill', 'black')
+  .style('pointer-events', 'none')
+  .text(' \u25BA')
   .append('g');
 
 $('.handle--w').css('pointer-events', 'none');
 $('.handle--e')
   .attr('width', 30)
   .attr('x', $('.handle--e').attr('x') - 12);
+
 function update() {
   $('.guess-button').fadeIn('slow');
+  $('.left-arrow').remove();
+  d3.select('text').transition();
   svgbrushX.select('text').attr('class', '');
   svgbrushX.select('text').style('fill', d => {
     if (d.value < 0.93) return 'black';
@@ -106,8 +120,33 @@ function brushmoveX() {
   update();
 }
 
+function animateArrow() {
+  d3
+    .select('.left-arrow')
+    .attr('dx', () => '-8px')
+    .transition()
+    .duration(1000)
+    .attr('dx', '-14px')
+    .transition()
+    .duration(1000)
+    .attr('dx', '-8px')
+    .on('end', animateArrow);
+
+  d3
+    .select('.right-arrow')
+    .attr('dx', () => '-7px')
+    .transition()
+    .duration(1000)
+    .attr('dx', '-1px')
+    .transition()
+    .duration(1000)
+    .attr('dx', '-7px')
+    .on('end', animateArrow);
+}
+
 brushX.on('brush', brushmoveX).on('end', brushendX);
 $(document).ready(() => {
+  animateArrow();
   $('.guess-button').fadeOut(1);
   $('.guess-button').click(() => {
     $('.guess-button').remove();
@@ -124,8 +163,8 @@ $(document).ready(() => {
       .attr('x', '0')
       .attr('width', 0)
       .transition()
-      .duration(1200) // time in ms
-      .attr('width', () => widthX * trueValue)
+      .duration(1200)
+      .attr('width', widthX * trueValue)
       .attr('y', '0')
       .attr('height', 214)
       .attr('stroke', 'white')
@@ -134,14 +173,13 @@ $(document).ready(() => {
       .append('text')
       .text(d3.format('.0%')(trueValue))
       .attr('fill', 'black')
+      .attr('class', 'result-text')
       .attr('x', 0)
       .transition()
-      .duration(1170) // time in ms
+      .duration(1170)
       .attr('x', () => widthX * trueValue + 5)
       .attr('y', 52);
-
     $('.handle').css('pointer-events', 'none');
-
     let resultString = "It's ";
     const roundedGuess = d3.format('.0%')(data[0].value);
     if (roundedGuess < d3.format('.0%')(trueValue - 0.025))
@@ -149,6 +187,10 @@ $(document).ready(() => {
     else if (roundedGuess > d3.format('.0%')(trueValue + 0.025))
       resultString += 'less than you expected';
     else resultString += 'about what you expected';
+    /*
+    const source =
+      'source: http://ucop.edu/global-food-initiative/best-practices/food-access-security/student-food-access-and-security-study.pdf';
+    */
     $('.interactive-bar-chart-container').append(resultString);
   });
 });
