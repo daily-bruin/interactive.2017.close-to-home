@@ -12,6 +12,7 @@ import frontMatter from 'gulp-front-matter';
 import marked from 'gulp-marked';
 import wrap from 'gulp-wrap';
 import fs from 'fs';
+import unescape from 'gulp-unescape-html';
 
 // Styling related packages
 import sass from 'gulp-sass';
@@ -138,10 +139,11 @@ gulp.task('pages:md', () => {
       wrap(
         data =>
           fs.readFileSync(`./src/${data.file.frontMatter.layout}`).toString(),
-        { escape: '' },
+        null,
         { engine: 'nunjucks' }
       )
     )
+    .pipe(unescape())
     .pipe(gulp.dest('build/'));
 });
 

@@ -3340,6 +3340,12 @@ gulp-uglify@^3.0.0:
     uglify-js "^3.0.5"
     vinyl-sourcemaps-apply "^0.2.0"
 
+gulp-unescape-html@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gulp-unescape-html/-/gulp-unescape-html-1.0.2.tgz#d0305581487334df0a3f487ead48a212ff32ba9f"
+  dependencies:
+    unescape-html "^1.0.0"
+
 gulp-util@^3.0, gulp-util@^3.0.0, gulp-util@^3.0.1, gulp-util@^3.0.3, gulp-util@^3.0.6, gulp-util@^3.0.7, gulp-util@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-3.0.8.tgz#0054e1e744502e27c04c187c3ecc505dd54bbb4f"
@@ -7515,6 +7521,10 @@ unc-path-regex@^0.1.0:
 underscore@1.7.x:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.7.0.tgz#6bbaf0877500d36be34ecaa584e0db9fef035209"
+
+unescape-html@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/unescape-html/-/unescape-html-1.1.0.tgz#d24705e82f0c9e62a87ada62f3cd96303d7d2a3c"
 
 unherit@^1.0.4:
   version "1.1.0"
