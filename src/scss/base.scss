@@ -1,6 +1,10 @@
 @import 'title-photo';
 @import 'footer';
 
+body {
+  font-family: 'Lora';
+}
+
 .article-content {
   margin: 20px;
   width: 600px;
