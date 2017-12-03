@@ -7,6 +7,9 @@ import imagemin from 'gulp-imagemin';
 // HTML
 import htmlmin from 'gulp-htmlmin';
 
+// Markdown
+import marked from 'gulp-marked';
+
 // Styling related packages
 import sass from 'gulp-sass';
 import postcss from 'gulp-postcss';
@@ -28,8 +31,8 @@ gulp.task('images:dev', () => gulp.src('src/img/*').pipe(gulp.dest('dev/img')));
 gulp.task('images:prod', () =>
   gulp
     .src('src/img/*')
-    .pipe(imagemin())
-    .pipe(gulp.dest('prod/img'))
+    //.pipe(imagemin())
+    .pipe(gulp.dest('docs/img'))
 );
 
 gulp.task('styles:dev', () =>
@@ -57,8 +60,7 @@ gulp.task('styles:prod', () =>
     )
     .pipe(postcss([autoprefixer()]))
     .pipe(minifyCSS())
-    .pipe(gulp.dest('./prod/css'))
-    .pipe(browserSync.stream())
+    .pipe(gulp.dest('./docs/css'))
 );
 
 const webpackConfig = {
@@ -97,7 +99,7 @@ gulp.task('scripts:prod', () =>
         console.log(e);
       })
     )
-    .pipe(gulp.dest('prod/js'))
+    .pipe(gulp.dest('docs/js'))
 );
 
 gulp.task('html:dev', () =>
@@ -120,8 +122,15 @@ gulp.task('html:prod', () =>
       })
     )
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(gulp.dest('prod/'))
+    .pipe(gulp.dest('docs/'))
 );
+
+gulp.task('markdown', () => {
+  gulp
+    .src('content/articles/*.md')
+    .pipe(marked())
+    .pipe(gulp.dest('content/articles/'));
+});
 
 gulp.task(
   'development',
@@ -152,6 +161,6 @@ gulp.task('production', [
   'images:prod',
 ]);
 
-gulp.task('clean', () => del(['dev/', 'prod/']));
+gulp.task('clean', () => del(['dev/', 'docs/']));
 gulp.task('default', ['development']);
 gulp.task('build', ['production']);

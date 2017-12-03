@@ -1,0 +1,41 @@
+.top-bar,
+.top-bar ul {
+  background-color: #b5b6b7;
+  margin: 0;
+  padding: 0;
+}
+
+.db-logo1 {
+  margin: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.menu-text {
+  font-size: 24px;
+  border-left: 2px solid white;
+}
+
+.menu-text:hover {
+  color: black;
+}
+
+.top-bar {
+  width: 100%;
+  color: white;
+  z-index: 9999;
+}
+
+.fix-bar {
+  position: fixed;
+  top: 0;
+}
