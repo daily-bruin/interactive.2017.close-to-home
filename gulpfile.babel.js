@@ -7,6 +7,9 @@ import imagemin from 'gulp-imagemin';
 // HTML
 import htmlmin from 'gulp-htmlmin';
 
+// Markdown
+import marked from 'gulp-marked';
+
 // Styling related packages
 import sass from 'gulp-sass';
 import postcss from 'gulp-postcss';
@@ -122,6 +125,13 @@ gulp.task('html:prod', () =>
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('prod/'))
 );
+
+gulp.task('markdown', () => {
+  gulp
+    .src('content/articles/*.md')
+    .pipe(marked())
+    .pipe(gulp.dest('content/articles/'));
+});
 
 gulp.task(
   'development',

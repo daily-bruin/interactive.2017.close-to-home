@@ -1,8 +1,28 @@
-@import "bar-chart-style.scss";
-@import "title-photo";
-@import "footer";
+@import 'bar-chart-style.scss';
+@import 'title-photo';
+@import 'cover-photo';
+@import 'footer';
+@import 'menubar';
+@import 'hr';
+
+body {
+  font-family: 'Spectral';
+}
+
+h3 {
+  font-family: 'Barlow Semi Condensed';
+}
 
 .article-content {
   margin: 20px;
   width: 600px;
+}
+
+.dropcap {
+  font-size: 400%;
+  float: left;
+  line-height: 60px;
+  padding-right: 8px;
+  padding-left: 3px;
+  padding-bottom: 4px;
 }
