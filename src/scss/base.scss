@@ -1,8 +1,12 @@
-@import 'title-photo';
-@import 'footer';
+@import "title-photo";
+@import "footer";
 
 body {
-  font-family: 'Lora';
+  font-family: "Spectral";
+}
+
+h3 {
+  font-family: "Barlow Semi Condensed";
 }
 
 .article-content {
