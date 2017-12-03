@@ -259,17 +259,20 @@ function setTitlePhotoHeight() {
 setTitlePhotoHeight();
 
 $(window).resize(setTitlePhotoHeight);
-$(window).waypoint(() => {
-  $('.cover-photo__header').fadeIn();
-  $('.db-logo').fadeIn();
-});
+$(window).waypoint(
+  () => {
+    $('.cover-photo__header').fadeIn();
+    $('.db-logo').fadeIn();
+  },
+  { offset: -1 }
+);
 
 $(window).waypoint(
   () => {
     $('.cover-photo__header').fadeOut();
     $('.db-logo').fadeOut();
   },
-  { offset: -1 }
+  { offset: -2 }
 );
 
 $(window).scroll();
