@@ -1,5 +1,14 @@
 @import 'title-photo';
 @import 'footer';
+@import 'hr';
+
+body {
+  font-family: 'Spectral';
+}
+
+h3 {
+  font-family: 'Barlow Semi Condensed';
+}
 
 .article-content {
   margin: 20px;
