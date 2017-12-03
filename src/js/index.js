@@ -1,20 +1,46 @@
 import hello from './module';
+/* Increasing number animation */
+const format = d3.format(',d');
+
+d3
+  .select('.increasing-number')
+  .transition()
+  .duration(1000)
+  .tween('text', () => {
+    const i = d3.interpolateNumber(0, 1691);
+    return t => d3.select('.increasing-number').text(format(i(t)));
+  });
+
+/*
+d3
+  .select('.increasing-number')
+  .transition()
+  .duration(1500)
+  .tween('text', () => {
+    const that = d3.select(this);
+    const i = d3.interpolateNumber(that.text().replace(/,/g, ''), 1691);
+    return t => that.text(format(i(t)));
+  });
+  */
+/* bar chart */
 
 const trueValue = 0.42;
+const startGuess = 0.5;
+const minXVal = 0.001;
+const maxXVal = 1;
+const widthX = $('.interactive-bar-chart-container').width() * 0.9;
+const heightX = $('.interactive-bar-chart-container').height() * 0.23;
+
 const data = [
   {
     index: 0,
-    value: 0.5,
+    value: startGuess,
   },
 ];
 
-const widthX = $('.interactive-bar-chart-container').width() * 0.9;
-const heightX = $('.interactive-bar-chart-container').height() * 0.23;
-const delim = 0;
-
 const scaleX = d3
   .scaleLinear()
-  .domain([0.001, 1])
+  .domain([minXVal, maxXVal])
   .rangeRound([0, widthX]);
 
 const y = d3
@@ -32,10 +58,7 @@ const svgX = d3
 
 const brushX = d3
   .brushX()
-  .extent((d, i) => [
-    [0, y(i) + delim / 2],
-    [widthX, y(i) + heightX / data.length - delim / 2],
-  ]);
+  .extent((d, i) => [[0, y(i)], [widthX, y(i) + heightX / data.length]]);
 
 const svgbrushX = svgX
   .selectAll('.brush')
@@ -58,6 +81,7 @@ svgbrushX
   .style('pointer-events', 'none')
   .text('\u25C4 ')
   .append('g');
+
 svgbrushX
   .append('text')
   .attr('x', d => scaleX(d.value) + 10)
@@ -84,6 +108,7 @@ function update() {
     if (d.value < 0.93) return 'black';
     return 'white';
   });
+
   svgbrushX
     .call(brushX.move, d => [0, d.value].map(scaleX))
     .selectAll('text')
@@ -150,6 +175,10 @@ $(document).ready(() => {
   $('.guess-button').fadeOut(1);
   $('.guess-button').click(() => {
     $('.guess-button').remove();
+    /*
+      .style('pointer-events', 'none')
+      could make guess highlight-able in here
+    */
     const svgY = d3
       .select('body')
       .select('.answer-bar-chart')
@@ -180,13 +209,14 @@ $(document).ready(() => {
       .attr('x', () => widthX * trueValue + 5)
       .attr('y', 52);
     $('.handle').css('pointer-events', 'none');
+    $('.handle').css('width', '1');
     let resultString = "It's ";
     const roundedGuess = d3.format('.0%')(data[0].value);
     if (roundedGuess < d3.format('.0%')(trueValue - 0.025))
-      resultString += 'more than you expected';
+      resultString += 'more than you expected<br>...source...';
     else if (roundedGuess > d3.format('.0%')(trueValue + 0.025))
-      resultString += 'less than you expected';
-    else resultString += 'about what you expected';
+      resultString += 'less than you expected<br>...source...';
+    else resultString += 'about what you expected<br>...source...';
     /*
     const source =
       'source: http://ucop.edu/global-food-initiative/best-practices/food-access-security/student-food-access-and-security-study.pdf';

@@ -1,17 +1,23 @@
 @charset "utf-8";
 
 .overlay {
-  cursor: default;
+  //cursor: default;
   pointer-events: none;
 }
 .handle--w {
   pointer-events: none;
 }
+.handle--e {
+  cursor: ew-resize;
+}
 .selection {
   fill: url("#diagonal-stripe-3");
   fill-opacity: 1;
-  cursor: default;
+  //cursor: default;
   pointer-events: none;
+}
+.handle--e:active {
+  cursor: ew-resize;
 }
 .interactive-bar-chart-container {
   background-color: #d3d3d3;
@@ -20,9 +26,6 @@
   align-items: center;
   height: 400px;
   width: auto;
-}
-.answer-bar-chart {
-  pointer-events: none;
 }
 .percent-guide {
   list-style: none;
