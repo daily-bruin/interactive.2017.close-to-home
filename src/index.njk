@@ -1,7 +1,10 @@
 {% extends "./nunjucks/templates/default.njk" %}
-{% block content %}
-{% include "nunjucks/partials/title-photo.njk" %}
 
+{% block coverphoto %}
+  {% include "nunjucks/partials/cover-photos/cover-photo-x.njk" %}
+{% endblock %}
+
+{% block content %}
 <div class="article-content">
   <p>Beginning</p>
   <p><span class="dropcap">G</span>oing to sleep each night brings a new dream, and a new adventure.</p>
