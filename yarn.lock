@@ -1138,6 +1138,10 @@ buffer@^4.3.0:
     ieee754 "^1.1.4"
     isarray "^1.0.0"
 
+bufferstreams@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/bufferstreams/-/bufferstreams-0.0.1.tgz#6ba7773de6acb6eb85dbce710c321808c79be849"
+
 bufferstreams@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/bufferstreams/-/bufferstreams-1.1.1.tgz#0161373060ac5988eff99058731114f6e195d51e"
@@ -3213,6 +3217,15 @@ gulp-imagemin@^4.0.0:
     imagemin-optipng "^5.2.1"
     imagemin-svgo "^6.0.0"
 
+gulp-marked@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-marked/-/gulp-marked-1.0.0.tgz#4d09826680a1708eff400e2711a2990a63f43229"
+  dependencies:
+    bufferstreams "0.0.1"
+    gulp-util "~2.2.9"
+    lodash "^2.4.1"
+    marked "~0.3.2"
+
 gulp-nunjucks-render@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/gulp-nunjucks-render/-/gulp-nunjucks-render-2.2.1.tgz#371c6acafe94ba9d69ce5a5fc43c1523863b10f0"
@@ -3307,7 +3320,7 @@ gulp-util@^3.0, gulp-util@^3.0.0, gulp-util@^3.0.1, gulp-util@^3.0.6, gulp-util@
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp-util@~2.2.0:
+gulp-util@~2.2.0, gulp-util@~2.2.9:
   version "2.2.20"
   resolved "https://registry.yarnpkg.com/gulp-util/-/gulp-util-2.2.20.tgz#d7146e5728910bd8f047a6b0b1e549bc22dbd64c"
   dependencies:
@@ -4694,6 +4707,10 @@ lodash.values@~2.4.1:
   dependencies:
     lodash.keys "~2.4.1"
 
+lodash@^2.4.1:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
+
 lodash@^3.10.0, lodash@^3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
@@ -4818,6 +4835,10 @@ markdown-escapes@^1.0.0:
 markdown-table@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.1.tgz#4b3dd3a133d1518b8ef0dbc709bf2a1b4824bc8c"
+
+marked@~0.3.2:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.7.tgz#80ef3bbf1bd00d1c9cfebe42ba1b8c85da258d0d"
 
 math-clamp-x@^1.2.0:
   version "1.2.0"

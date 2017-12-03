@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
+
 {% include "../partials/head.njk" %}
 
 <body>
+
+  {% block coverphoto %}{% endblock %}
+
+  {% include "nunjucks/partials/menubar.njk" %}
 
   <div class="content">
     {% block content %}{% endblock %}
