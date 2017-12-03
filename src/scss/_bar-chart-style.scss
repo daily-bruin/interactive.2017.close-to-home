@@ -16,9 +16,8 @@
   //cursor: default;
   pointer-events: none;
 }
-
 .handle--e:active {
-  pointer-events: all;
+  cursor: ew-resize;
 }
 .interactive-bar-chart-container {
   background-color: #d3d3d3;
