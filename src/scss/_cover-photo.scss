@@ -1,0 +1,56 @@
+.cover-photo {
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  // height: 500px;
+}
+
+#cover-photo-x {
+  background: url(../img/web.enterprise.anonymous.DLee.jpg) no-repeat center
+    center fixed;
+}
+
+#cover-photo-paavo {
+  background: url(../img/web.enterprise.paavo.monkkonen.DLee.jpg) no-repeat
+    center center fixed;
+}
+
+#cover-photo-seth {
+  background: url(../img/web.enterprise.seth.wing.picA.MHodges.jpg) no-repeat
+    center center fixed;
+}
+
+.db-logo {
+  margin: 1.25rem;
+  height: 6.25rem;
+  width: 6.25rem;
+}
+
+.cover-photo__header {
+  text-align: right;
+  color: white;
+  margin: 4.6875rem;
+  margin-right: 0.325rem;
+  margin-bottom: auto;
+  font-family: 'Barlow Semi Condensed';
+}
+
+.cover-photo__subhead {
+  margin-top: -0.3125rem;
+  margin-bottom: 0.3125rem;
+}
+
+.white-line {
+  height: 0.25rem;
+  width: 3.125rem;
+  margin-right: 0.3125rem;
+  background-color: white;
+}
+
+.cover-photo__byline {
+  margin-top: 0.9375rem;
+}
+
+.cover-photo__byline__author {
+  text-transform: uppercase;
+}
