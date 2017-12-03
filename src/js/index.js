@@ -3,7 +3,7 @@ import hello from './module';
 hello();
 
 function setTitlePhotoHeight() {
-  $('.title-photo').height($(window).height());
+  $('.cover-photo').height($(window).height());
 }
 
 setTitlePhotoHeight();
@@ -11,13 +11,13 @@ setTitlePhotoHeight();
 $(window).resize(setTitlePhotoHeight);
 
 $(window).waypoint(() => {
-  $('.title-header').fadeIn();
+  $('.cover-photo__header').fadeIn();
   $('.db-logo').fadeIn();
 });
 
 $(window).waypoint(
   () => {
-    $('.title-header').fadeOut();
+    $('.cover-photo__header').fadeOut();
     $('.db-logo').fadeOut();
   },
   { offset: -1 }
