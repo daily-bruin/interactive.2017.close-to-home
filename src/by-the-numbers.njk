@@ -1,6 +1,12 @@
 {% extends "./nunjucks/templates/default.njk" %}
+
+{% block coverphoto %}
+  {% include "nunjucks/partials/cover-photos/cover-photo-4.njk" %}
+{% endblock %}
+
 {% block content %}
-<div class="article-content">
+<div class="row">
+<div class="small-12 columns article-content">
       <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" version="1.1">
       <defs>
         <pattern id="diagonal-stripe-3" patternunits="userSpaceOnUse" width="10" height="10">
@@ -9,19 +15,6 @@
         </pattern>
       </defs>
     </svg>
-    <div class="guess-the-number-container">
-      <p>How many cases has the ECRT worked with?</p>
-      <p>Press the arrows to change your guess</p>
-      <div class="guess-the-number">
-        <button class="clear button rotate-button left-rotate-button">&#x25C4;</button>
-        <div class="range-container">
-          <div class="range"></div>
-        </div>
-        <button class="clear button rotate-button right-rotate-button">&#x25BA;</button>
-        <div class="increasing-number"></div>
-    </div>
-    <button class="button secondary num-guess-button">Submit your guess</button>
-  </div>
 
     <div class="interactive-bar-chart-container">
       <p>What percent of UC students experience food insecurity?</p>
@@ -37,6 +30,66 @@
       <div class="answer-bar-chart"></div>
       <button class="button secondary bar-guess-button">Submit your guess</button>
     </div>
+
+    <div class="ecrt">
+      <img src="img/12.4.enterprise.ECRT-01.png" alt="A graphic of the number of ECRT cases since 2008.">
+    </div>
+
+
+    <div class="illo">
+      <img src="img/luskin2.png" alt="An illustration of a student microwaving ramen.">
+      <p>A study early this year found that 42 percent of University of California
+students are food-insecure. Food insecurity is defined as limited access to
+adequate food because of financial constraints.</p>
+<p>In response, two graduate student researchers in the Fielding School of Public
+Health facilitated a qualitative study which investigated food literacy and
+insecurity at UCLA.</p>
+<p>Hannah Malan, a research assistant in the UC Healthy Campus Initiative, and
+Tyler Watson, a doctoral student in the UCLA Fielding School of Public Health,
+organized the study in 2016. They conducted 11 focus groups with undergraduate
+and graduate UCLA students to investigate what factors contribute to food
+insecurity at UCLA.</p>
+<p>Malan and Watson are both members of the UC Global Food Initiative, which
+develops solutions to food insecurity and health issues throughout the country.</p>
+<p>Malan said one finding from the study that surprised her most was that students
+often normalize unhealthy lifestyle choices.</p>
+<p>“I was most surprised (by) how many students talked about food as a stressor in
+their lives,” Malan said. “Students’ struggling with food ... replicates the
+broader cultural norm that we just don’t have time or resources to take care of
+ourselves when we’re living in these demanding, stressful environments.”</p>
+<p>Malan and Watson’s research showed many undergraduates are unaware that
+struggling with hunger meant they were food-insecure, and that the university
+did not actively inform students about food literacy.</p>
+<p>Malan said they also found students sometimes forgo meals to offset the costs of
+university attendance.</p>
+<p>“I think (what) we can do more as an institution of higher education (is) to
+give students the tools they need and communicate the values of … community
+health and well-being, which I think start with food,” Malan said.</p>
+    </div>
+
+    <!-- Video -->
+
+    <div class="guess-the-number-container">
+      <p>How many cases has the ECRT worked with?</p>
+      <p>Press the arrows to change your guess</p>
+      <div class="guess-the-number">
+        <button class="clear button rotate-button left-rotate-button">&#x25C4;</button>
+        <div class="range-container">
+          <div class="range"></div>
+        </div>
+        <button class="clear button rotate-button right-rotate-button">&#x25BA;</button>
+        <div class="increasing-number"></div>
+    </div>
+    <button class="button secondary num-guess-button">Submit your guess</button>
+  </div>
+
+  <div class="graphic">
+    <img src="img/swipeOutHunger-01.png" alt="A graphic detailing the number of students who have donated to Swipe Out Hunger.">
+
+  </div>
+
+
+</div>
 </div>
 
 {% endblock %}
