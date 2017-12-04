@@ -1,6 +1,7 @@
 #cover-photo-1 {
-  background: url(../img/web.enterprise.anonymous.DLee.jpg) no-repeat center
-    center fixed;
+  background-image: url(../img/web.enterprise.anonymous.DLee.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
 
   @media (max-width: 39.9375em) {
     background-size: 280%;
