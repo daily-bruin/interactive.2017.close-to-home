@@ -13,12 +13,12 @@ h3 {
 }
 
 .article-content {
-  margin: 20px;
-  width: 50rem;
+  // margin: 20px;
+  max-width: 50rem;
+  margin-top: 2rem;
   // margin-left: 25rem;
   // margin-right: 25rem;
   // line-height: 12px;
-  width: 600px;
 }
 
 .offset-photo-left {
@@ -61,10 +61,10 @@ h3 {
 }
 
 .interview-font {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 900px;
   letter-spacing: 2px;
-  text-transform:uppercase;
+  text-transform: uppercase;
   margin-right: 5px;
 }
