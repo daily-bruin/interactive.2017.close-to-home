@@ -26,29 +26,60 @@
   width: 6.25rem;
 }
 
-.cover-photo__header {
-  text-align: right;
-  color: white;
-  margin: 4.6875rem;
-  margin-right: 0.325rem;
+.cover-photo__header{
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  line-height: 110%;
   margin-bottom: auto;
   font-family: 'Barlow Semi Condensed';
 }
 
-.cover-photo__subhead {
+.x
+{
+  text-align: right;
+  color: white;
+}
+
+.paavo
+{
+  text-align: left;
+  color: black;
+}
+
+.seth
+{
+  text-align: left;
+  color: white;
+}
+
+.cover-photo__title {
   margin-top: -0.3125rem;
-  margin-bottom: 0.3125rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
 }
 
 .white-line {
   height: 0.25rem;
   width: 3.125rem;
-  margin-right: 0.3125rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
   background-color: white;
+}
+
+.black-line {
+  height: 0.25rem;
+  width: 3.125rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+  background-color: black;
 }
 
 .cover-photo__byline {
   margin-top: 0.9375rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .cover-photo__byline__author {
