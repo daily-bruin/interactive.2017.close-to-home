@@ -329,7 +329,7 @@ $(document).ready(() => {
     d3
       .select('.interactive-bar-chart-container')
       .append('text')
-      .attr('class', 'numguess1-source')
+      .attr('class', 'bar-source')
       .text('...source...');
   });
 });
