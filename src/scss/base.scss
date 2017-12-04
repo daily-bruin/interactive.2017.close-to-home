@@ -1,24 +1,25 @@
-@import 'bar-chart-style.scss';
-@import 'cover-photo';
-@import 'footer';
-@import 'menubar';
-@import 'hr';
+@import "bar-chart-style.scss";
+@import "guess-the-number.scss";
+@import "cover-photo";
+@import "footer";
+@import "menubar";
+@import "hr";
 
 body {
-  font-family: 'Spectral';
+  font-family: "Spectral";
 }
 
 h3 {
-  font-family: 'Barlow Semi Condensed';
+  font-family: "Barlow Semi Condensed";
 }
 
 .article-content {
-  margin: 20px;
-  width: 50rem;
+  // margin: 20px;
+  max-width: 50rem;
+  margin-top: 2rem;
   // margin-left: 25rem;
   // margin-right: 25rem;
   // line-height: 12px;
-  width: 600px;
 }
 
 .offset-photo-left {
@@ -58,4 +59,13 @@ h3 {
   padding-right: 8px;
   padding-left: 3px;
   padding-bottom: 4px;
+}
+
+.interview-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 900px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 5px;
 }

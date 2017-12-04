@@ -1,11 +1,15 @@
 {% extends "./nunjucks/templates/default.njk" %}
 
-{% set headline = "Emily Merz: UC needs long-term solutions for homeless, financially strained students" %}
-{% set title = headline + " – Daily Bruin" %}
+{% set title = "Securing Support | Daily Bruin" %}
+
+{% block coverphoto %}
+  {% include "nunjucks/partials/cover-photos/cover-photo-3.njk" %}
+{% endblock %}
 
 {% block content %}
-<div class="article-content">
-  <p>Nearly 40 of the most elite universities in the U.S. have more students
+<div class="row">
+<div class="small-12 columns article-content">
+  <p><span class="dropcap">N</span>early 40 of the most elite universities in the U.S. have more students
 <a href="https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html?_r=0">from the top 1 percent of income brackets</a>
 than the bottom 60 percent. And that inequality is readily visible in the
 University of California.</p>
@@ -101,6 +105,7 @@ take out these private loans.</p>
 <p>If universities don&#39;t take action to provide robust long-term and short-term
 housing options, student homelessness will be more than just a hypothetical
 worst-case scenario – it will be the reality for many.</p>
+</div>
 </div>
 
 {% endblock %}
