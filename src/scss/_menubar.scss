@@ -66,7 +66,8 @@ li a:hover {
 
 .menu-text-mobile li a {
   font-family: 'Barlow Semi Condensed';
-  float: center;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
 }
 
 $burger--thickness: 4px;
@@ -115,6 +116,10 @@ $burger--thickness: 4px;
   }
 }
 
+.burger {
+  margin-top: -40px;
+}
+
 .burger-check {
   display: none;
 }
@@ -122,20 +127,16 @@ $burger--thickness: 4px;
 .burger-check:checked ~ .burger {
   border-bottom: $burger--thickness solid transparent;
   transition: border-bottom 0.8s ease-in-out;
-  -webkit-transition: border-bottom 0.8s ease-in-out;
+  padding-top: 0.5rem;
 
   &:before {
     transform: rotate(-405deg) translateY(1px) translateX(-3px);
-    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
     transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
 
   &:after {
     transform: rotate(405deg) translateY(-4px) translateX(-5px);
-    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
     transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
 }
 
@@ -145,7 +146,6 @@ $navigation__transition: max-height 0.5s ease-in-out;
 .navigation {
   overflow: hidden;
   max-height: 0;
-
   transition: $navigation__transition;
 }
 
