@@ -10,17 +10,17 @@
     center fixed;
 }
 
-#cover-photo-paavo {
+#cover-photo-2 {
   background: url(../img/web.enterprise.paavo.monkkonen.DLee.jpg) no-repeat
     center center fixed;
 }
 
-#cover-photo-seth {
+#cover-photo-5 {
   background: url(../img/web.enterprise.seth.wing.picA.MHodges.jpg) no-repeat
     center center fixed;
 }
 
-#cover-photo-merz {
+#cover-photo-3 {
   background: url(../img/luskin1.png) no-repeat center center fixed;
   background-size: 120% auto;
 }
@@ -39,7 +39,6 @@
     font-family: 'Barlow Semi Condensed';
     margin-bottom: auto;
     line-height: 3rem;
-    max-width: 30rem;
   }
 }
 
@@ -53,12 +52,20 @@
 .cover-photo__header--2 {
   text-align: left;
   color: black;
+
+  h1 {
+    max-width: 30rem;
+  }
 }
 
 .cover-photo__subhead {
   margin-top: -0.3125rem;
   margin-right: 0.3125rem;
   margin-bottom: 0.3125rem;
+}
+
+.cover-photo__subhead--chapter {
+  text-transform: uppercase;
 }
 
 .white-line {
