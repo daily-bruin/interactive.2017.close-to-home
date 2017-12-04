@@ -26,15 +26,14 @@ li a:hover {
 }
 
 .top-bar {
+  display: none;
   width: 100%;
   color: white;
   z-index: 9999;
-}
-
-.fix-bar {
   position: fixed;
   top: 0;
 }
+
 
 .dropdown.menu a {
   padding: 0;
