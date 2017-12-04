@@ -16,6 +16,10 @@
   width: 6.25rem;
 }
 
+.cover-photo__subhead--chapter {
+  text-transform: uppercase;
+}
+
 .cover-photo__header {
   font-family: 'Barlow Semi Condensed';
 
@@ -39,7 +43,7 @@
   }
 }
 
-.cover-photo__subhead--chapter {
+.cover-photo__byline__author {
   text-transform: uppercase;
 }
 
@@ -53,8 +57,4 @@
   height: 0.25rem;
   width: 3.125rem;
   background-color: black;
-}
-
-.cover-photo__byline__author {
-  text-transform: uppercase;
 }
