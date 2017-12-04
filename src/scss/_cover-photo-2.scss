@@ -1,7 +1,12 @@
 #cover-photo-2 {
-  background: url(../img/web.enterprise.paavo.monkkonen.DLee.jpg) no-repeat
-    center center fixed;
-  background-position: 50% 30%;
+  background: url(../img/web.enterprise.paavo.monkkonen.DLee.jpg); // no-repeat 50%
+  //  30% fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+
+  @media (max-width: 39.9375em) {
+    background-size: 240%;
+  }
 }
 
 .cover-photo__header--2 {
@@ -11,6 +16,14 @@
 
   h1 {
     max-width: 30rem;
+  }
+
+  @media (max-width: 39.9375em) {
+    max-width: 14rem;
+
+    h1 {
+      line-height: 2rem;
+    }
   }
 }
 
@@ -23,4 +36,8 @@
 
 .cover-photo__byline--2 {
   margin-top: 0.4rem;
+
+  @media (max-width: 39.9375em) {
+    max-width: 4rem;
+  }
 }

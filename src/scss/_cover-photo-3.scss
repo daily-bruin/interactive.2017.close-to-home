@@ -1,12 +1,27 @@
 #cover-photo-3 {
-  background: url(../img/luskin1.png) no-repeat center center fixed;
+  background-image: url(../img/luskin1.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   background-size: 120% auto;
+
+  @media (max-width: 39.9375em) {
+    background-size: 150% auto;
+    background-position: 50% 9rem;
+  }
 }
 
 .cover-photo__header--3 {
   margin: 6rem;
   text-align: center;
   color: white;
+
+  @media (max-width: 39.9375em) {
+    max-width: 14rem;
+
+    h1 {
+      line-height: 2rem;
+    }
+  }
 }
 
 .cover-photo__line--3 {

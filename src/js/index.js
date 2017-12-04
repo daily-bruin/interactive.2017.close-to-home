@@ -1,4 +1,3 @@
-import hello from './module';
 /* Increasing number animation */
 const numGuess1 = 1691;
 const containerName = '.guess-the-number-container';
@@ -357,8 +356,6 @@ $(document).ready(() => {
   });
   */
 });
-
-hello();
 
 function setTitlePhotoHeight() {
   $('.cover-photo').height($(window).height());
