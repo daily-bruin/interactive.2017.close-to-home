@@ -1,0 +1,26 @@
+#cover-photo-5 {
+  background: url(../img/web.enterprise.seth.wing.picA.MHodges.jpg) no-repeat
+    center center fixed;
+  background-position: 75% 50%;
+}
+
+.cover-photo__header--5 {
+  color: white;
+  text-align: left;
+  margin-left: 1.25rem;
+
+  h1 {
+    max-width: 40rem;
+  }
+}
+
+.cover-photo__line--5 {
+  height: 0.25rem;
+  width: 3.125rem;
+  margin-top: 0.8rem;
+  background-color: white;
+}
+
+.cover-photo__byline--5 {
+  margin-top: 0.2rem;
+}
