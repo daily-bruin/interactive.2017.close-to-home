@@ -1,6 +1,6 @@
 .top-bar,
 .top-bar ul {
-  background-color: #b5b6b7;
+  background-color: $header-footer-black;
   margin: 0;
   padding: 0;
 }
@@ -17,7 +17,7 @@ li a {
 }
 
 li a:hover {
-  color: black;
+  color: $spacing-grey;
   text-decoration: underline;
 }
 
@@ -31,7 +31,7 @@ li a:hover {
 }
 
 .menu-text:hover {
-  color: black;
+  color: $spacing-grey;
 }
 
 .top-bar {
@@ -47,11 +47,14 @@ li a:hover {
   width: 100%;
   color: white;
   z-index: 9999;
+  position: fixed;
+  top: 0;
+  display: none;
 }
 
 .top-bar-mobile,
 .top-bar-mobile ul {
-  background-color: #b5b6b7;
+  background-color: $header-footer-black;
   margin: 0;
   padding: 0;
 }
@@ -62,6 +65,9 @@ li a:hover {
 
 .mobile-nav-title {
   font-size: 1.4rem;
+  a {
+    color: white;
+  }
 }
 
 .menu-text-mobile li a {
@@ -80,7 +86,7 @@ $burger--thickness: 4px;
   background: none;
   outline: 0;
   padding: 0;
-  margin-top: -50px;
+  margin-top: -38px;
   cursor: pointer;
 
   border-bottom: $burger--thickness solid white;
@@ -114,10 +120,6 @@ $burger--thickness: 4px;
     transition: transform 0.5s ease-in-out;
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
-}
-
-.burger {
-  margin-top: -40px;
 }
 
 .burger-check {

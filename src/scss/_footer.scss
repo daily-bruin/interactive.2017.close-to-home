@@ -2,7 +2,7 @@
 @import "utils";
 
 footer {
-  background-color: #b5b6b7;
+  background-color: $header-footer-black;
   padding: 10px 0;
 }
 
@@ -18,7 +18,7 @@ footer a {
 }
 
 footer a:hover {
-  color: black;
+  color: $spacing-grey;
 }
 
 #footer-left {
