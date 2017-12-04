@@ -2,7 +2,7 @@ import hello from './module';
 /* Increasing number animation */
 const numGuess1 = 1691;
 const containerName = '.guess-the-number-container';
-const numGuessSource = '...source...';
+const numGuessSource = 'Source: UCLA ECR Team';
 const rotateGuess = [
   '0 - 500',
   '500 - 1,000',
@@ -85,8 +85,8 @@ $(`${containerName} .num-guess-button`).click(() => {
       d3
         .select(`${containerName}`)
         .append('text')
-        .attr('class', 'numguess1-source');
-      $(`${containerName} .numguess1-source`)
+        .attr('class', 'numguess-source');
+      $(`${containerName} .numguess-source`)
         .hide()
         .append(numGuessSource)
         .fadeIn();
@@ -332,7 +332,9 @@ $(document).ready(() => {
       .select('.interactive-bar-chart-container')
       .append('text')
       .attr('class', 'bar-source')
-      .text('...source...');
+      .text(
+        'Source: Martinez, S. M., Maynard, K., Ritchie, L. D. Student Food Access and Security Study. Retrieved from http://ucop.edu/global-food-initiative/best-practices/food-access-security/student-food-access-and-security-study.pdf'
+      );
   });
 });
 
