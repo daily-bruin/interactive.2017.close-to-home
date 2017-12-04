@@ -1,8 +1,5 @@
-@import "colors";
-@import "utils";
-
 footer {
-  background-color: #b5b6b7;
+  background-color: $header-footer-black;
   padding: 10px 0;
 }
 
@@ -13,12 +10,12 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
-  font-family: "Spectral";
+  font-family: 'Spectral';
   padding: 10px;
 }
 
 footer a:hover {
-  color: black;
+  color: $spacing-grey;
 }
 
 #footer-left {

@@ -1,0 +1,43 @@
+.article-content {
+  max-width: 50rem;
+  margin-top: 2rem;
+}
+
+hr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  &:after {
+    content: 'X';
+    display: inline-block;
+    position: relative;
+    top: -0.75em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+  }
+}
+
+.dropcap {
+  font-size: 400%;
+  float: left;
+  line-height: 60px;
+  padding-right: 8px;
+  padding-left: 3px;
+  padding-bottom: 4px;
+}
+
+.interview-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 900px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 5px;
+}

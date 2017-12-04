@@ -5,6 +5,30 @@
   // height: 500px;
 }
 
+<<<<<<< HEAD
+=======
+#cover-photo-1 {
+  background: url(../img/web.enterprise.anonymous.DLee.jpg) no-repeat center
+    center fixed;
+}
+
+#cover-photo-2 {
+  background: url(../img/web.enterprise.paavo.monkkonen.DLee.jpg) no-repeat
+    center center fixed;
+}
+
+#cover-photo-3 {
+  background: url(../img/luskin1.png) no-repeat center center fixed;
+  background-size: 120% auto;
+}
+
+#cover-photo-5 {
+  background: url(../img/web.enterprise.seth.wing.picA.MHodges.jpg) no-repeat
+    center center fixed;
+  background-position: 75% 50%;
+}
+
+>>>>>>> master
 .db-logo {
   margin: 1.25rem;
   height: 6.25rem;
@@ -21,6 +45,7 @@
   h1 {
     font-family: 'Barlow Semi Condensed';
     line-height: 3rem;
+    margin-bottom: 0.2rem;
   }
 }
 
