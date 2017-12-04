@@ -347,10 +347,10 @@ function setTitlePhotoHeight() {
 (function fadeBar() {
   $(document).ready(() => {
     $(window).scroll(function scrollEffects() {
-      if ($(this).scrollTop() >= $(window).height()) {
-        $('.top-bar').addClass('fix-bar');
+      if ($(this).scrollTop() >= $(window).height() + 50) {
+        $('.top-bar').fadeIn();
       } else {
-        $('.top-bar').removeClass('fix-bar');
+        $('.top-bar').fadeOut();
       }
     });
   });

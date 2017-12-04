@@ -1,8 +1,3 @@
-Alum remembers troubles of living out of van as student
-
-Andrea Henthorn (ahenthorn@media.ucla.edu) and Meghan Hodges
-(mhodges@media.ucla.edu)
-
 Every morning during the summer of 2010, Seth Wing walked to Kerckhoff Hall from
 his van, parked on Veteran Avenue, with a cup of instant oatmeal in his hand and
 ready to start the day.
@@ -11,7 +6,7 @@ That summer, before he graduated with a degree in geography/environmental
 studies and a minor in geospatial information systems and technologies, Wing
 lived out of his van during the school week.
 
-“It’s an heirloom,” Wing said about his brown, two-toned 1989 Ford E150
+“It’s an heirloom,” Wing joked about his brown, two-toned 1989 Ford E150
 Econoline van that he inherited from his grandparents.
 
 Wing said he decided to take summer courses for his major and conduct research

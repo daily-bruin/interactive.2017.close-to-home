@@ -1,312 +1,189 @@
-Beginning
+X had dreamed of attending UCLA since she first visited the campus in elementary
+school.
 
-Going to sleep each night brings a new dream, and a new adventure.
+But when she finally came to UCLA, the college experience she had hoped for was
+interrupted by periods of housing and food insecurity.
 
-“I think I have control of my dreams, so I can go anywhere I want to go,” X
-said. “Nothing is ever too scary or major for me to handle (in my dreams).”
+X is a fifth-year humanities student who has experienced homelessness while at
+UCLA. She has requested anonymity and has chosen to be identified under the
+pseudonym X, which reflects her identity as gender nonconforming.
 
-X is a fifth-year gender studies student who has experienced homelessness as a
-UCLA student. She has chosen to remain anonymous under the pseudonym X, which
-reflects her identity as gender non-conforming.
-
-Growing up in Compton, X lived with her mother, two older sisters and
-occasionally her grandmother. For much of her childhood, her family lived below
-the poverty line.
+X grew up in Compton, California, where she lived with her mother, two older
+sisters and occasionally her grandmother. For much of her childhood, her family
+lived below the poverty line.
 
 “My mom had schizophrenia and she didn’t have the medical resources she needed,”
 X said. “Taking care of the family was put on her children.”
 
-X said she knew she wanted to go to UCLA one day after going on a field trip to
-campus in elementary school.
+X said she knew she wanted to go to UCLA one day after she took a field trip to
+the campus when she was in elementary school.
 
 “It was a way for me to get out of my household and make opportunities for
 myself,” X said.
 
-X had aspirations of becoming a doctor when she started attending UCLA, but she
-found little representation of students of color or LGBTQ students in the
-Biology Department.
+X had aspirations of becoming a doctor when she started attending UCLA, but said
+she found little representation of students of color or LGBTQ students in the
+biology department.
 
-“I found my way to gender studies and they were supportive (of my identity),” X
-said. “I was able to learn about myself, and things that I found were relevant
-to the sciences that needed to (then) be applied.”
+Instead, X turned to the humanities, which she found to be more supportive of
+her identity. She added the topics discussed in her courses overlapped with what
+she found interesting in her biology classes.
 
-Despite finding a place in the gender studies department, X said her studies
-were disrupted by periods of housing insecurity.
+Despite finding a place in the humanities, X said her studies were disrupted by
+periods of housing insecurity.
 
-XXXXXXXXXXXXXXXXXXX
+After living in the dorms during her first and second years at UCLA, X became
+homeless in June 2016. She alternated between living in her car, her home in
+Compton and couch surfing.
 
-Housing Situation, Homelessness and food insecurity
+At the time, X had been financially supporting herself and her mother by working
+two jobs while balancing a full course load.
 
-The 1993, two-toned sedan that X bought before beginning classes at UCLA became
-her shelter as she bounced between living in the dorms and couch-surfing during
-winter quarter of 2016.
+When she became unable to support herself and her mother, she researched her
+options on campus, and contacted UCLA’s Economic Crisis Response Team for
+housing assistance. ECRT is a program facilitated by Student Affairs that
+assists students in immediate financial distress. After X contacted ECRT, she
+was placed in a university apartment.
 
-At the time, X said she had been financially supporting herself and her mother
-by working two jobs while balancing a full course load.
+However, living in the apartment created a new set of challenges for X.
 
-X said when she found herself in financial crisis, she researched her options on
-campus, and contacted the Economic Crisis Response Team, or ECRT, for
-assistance.
+The first day X arrived at the apartment, her key did not work, so she knocked
+on the door. She saw people looking back at her through the peephole, but they
+did not let her in. X said she had to contact UCLA Housing to give her access
+instead.
 
-“They were helpful in certain ways,” X said.
+“(The roommates) didn’t say ‘hi’ or ‘welcome,’” X said. “They said, ‘We like to
+keep things clean around here.’”
 
-However, once the Office of Student Affairs connected her with ECRT, she said
-she found the programs were ultimately unsympathetic. They put her in a
-university apartment, but she said UCLA Housing and Student Affairs did not give
-any consequences to the randomly assigned roommates she said discriminated
-against her.
+While X was living in the apartment, she said her roommates ignored her, but
+acted friendly with each other.
 
-The first day X arrived at the apartment, her key did not work. She said she
-knocked on the door, and saw people looking back at her through the peephole,
-but they did not let her in. She said she had to contact UCLA Housing to give
-her access instead.
+“They let me know I was unwelcome as a black student, and as someone who is
+gender nonconforming and queer,” X said.
 
-“(The roommates) didn’t say hi or welcome,” X said. “They said, ‘We like to keep
-things clean around here.’”
+She also said her roommates stole her property, which she reported to UCLA
+Housing, and told her they did not want to live with her because of her
+disability. X is registered with the Center for Accessible Education because she
+has been diagnosed with post-traumatic stress disorder.
 
-While X was living in the apartment, she said the other roommates, who were
-white, ignored her, but acted friendly with each other.
+When she spoke with a UCLA Housing mediator to manage the discomfort she felt in
+her apartment, X said the mediator told her race-, gender- and sexuality-based
+discrimination is common in UCLA dorms and apartments.
 
-“They let me know I was unwelcome as a Black student, and as someone who is
-gender non-conforming and queer,” X said.
+After completing mediation, UCLA Housing staff told X they would assign her to a
+different university apartment, rather than moving her roommates. The new unit
+was more expensive, and UCLA did not adjust her financial aid package to
+compensate for its higher price, she said.
 
-She said her roommates stole her property and told her they did not want to live
-with her because of her disability. X said she was managing Post Traumatic
-Stress Disorder and was registered with the Center for Accessible Education.
-
-X said she spoke with a UCLA housing mediator to manage the discomfort she felt
-in her apartment, and said the mediator confirmed discrimination was common in
-UCLA housing due to race, gender and sexuality.
-
-“After that mediation with UCLA that confirmed (discrimination was common), they
-moved me to a more expensive unit and said (it was) for safety,” X said. “They
-gave the apartment to my roommates and moved me to a more expensive unit.”
-
-She said UCLA Housing suggested the move to a different unit in University
-Housing would be for her safety, but X added that disciplinary action was not
-taken with her roommates.
-
-X said UCLA did not adjust her financial aid package to compensate for the
-increased price, and that the university then randomly assigned X to a roommate
-in crisis. While in this unit, X said her roommate assaulted her.
+When she moved to the new university apartment, she now had her own bedroom. But
+X said she continued to feel unsafe while living in the new unit because her
+randomly assigned roommate was undergoing an emotional crisis.
 
 “The roommate deteriorated to the point where she had a breakdown,” X said. “She
-began to throw plates at me, ... she started smashing stuff … (and) it ended
-with her reaching for a knife.”
+began to throw plates at me ... she started smashing stuff … (and) it ended with
+her reaching for a knife.”
 
-X said she tried to disarm her roommate, and immediately called UCLA Housing,
-requesting medical assistance. Instead, however, X said they dispatched campus
-police, who then called LAPD.
+X said she disarmed her roommate and immediately called UCLA Housing, requesting
+medical assistance. Instead, UCLA Housing dispatched campus police, who then
+called the Los Angeles Police Department, X said.
 
-X said the police acted violently toward her and her roommate.She added the
-police shoved the roommate facedown on the sofa while continuing to tighten her
-handcuffs.
+Following that incident, X said UCLA Housing removed her from the unit and
+placed her in an even more expensive studio apartment, again without adjusting
+her financial aid. Consequently, X fell behind on payments, and lost her housing
+for the summer.
 
-She added that UCLA Housing said it was her responsibility to follow up with the
-roommate after the incident, and then placed her in an even higher cost, single
-studio apartment without adjusting her financial aid.
+She remained homeless until January 2017.
 
-X said she received approval to have a therapy cat in the studio apartment. She
-named the cat Aset, after a star system with a history connecting to African
-people.
-
-Aset became a part of X’s artistic process, which she used as a way to channel
-her traumatic experiences, she said.
-
-“(Aset) grew up watching me paint, so he used to sit on my lap when I was
-painting (and) point to colors on the color palette,” X said.
-
-X said she had to give up her therapy animal because she was unable to keep up
-with payments she accrued between the two apartments, and consequently lost her
-housing for the summer of 2016. She said she was homeless from June 2016 until
-January 2017.
-
-By the time she became homeless, X said she stopped reaching out to campus
-services because she felt she was being blamed for experiencing poverty.
-
-“I met with ECRT, Student Affairs, LGBTQ Center, the Office of Diveristy, (but)
-people would listen and not change,” X said. “Nothing changed.”
-
-X began adjusting to her new schedule while managing housing insecurity.
+X continued to work and attend school, but she said it was difficult to manage
+her schedule because of her homelessness.
 
 “It was a struggle to be homeless because I still have these classes I need to
 take, but when I leave this class I have to figure out where I’m going to park
-my car,” X said. “You can’t rest because there’s so much going on, and you have
-to balance school and a job and you don’t feel safe.”
+my car,” X said.
 
-X said she went to the CPO Food Closet during her time as homeless, but did not
-find the options appealing.
+X said she went to the Community Programs Office Food Closet while she was
+homeless, but did not find appealing or healthy food options. She added she has
+recently visited the Food Closet and considers the current options better than
+last year’s.
 
-“It’s like the canned food no one wants to eat at food drives,” X said. “But if
-you don’t have a can opener, how are you going to eat it?”
+X said there were times last year when her life did not feel sustainable, but
+she continued to focus on survival.
 
-She added she has recently visited the CPO Food Closet located in the UCLA
-Student Activities Center, and that she considers the current options better
-than the ones she saw last year.
+“There were points (when) I couldn’t envision myself in the future,” she said.
 
-X added there were times during the last year when her life did not feel
-sustainable. She added her focus was on survival after experiencing several
-traumatic events.
+In December 2016, X was facing an academic hold on her UCLA account because she
+had an unpaid housing balance from the charges she accrued when she was moved to
+increasingly expensive housing units. She was unable to enroll in classes for
+winter quarter 2017, and consequently could not receive her financial aid
+disbursement.
 
-“There were points where I couldn’t envision myself in the future,” X said.
+Being unable to enroll for classes in winter 2017 meant that X would lose access
+to her university housing, medical resources and education.
 
-XXXXXXXXXXXXXXXXXXX
+She reached out to a faculty mentor she took a class with, visiting law
+professor Beth Ribet, for advice.
 
-Intervention
+After X explained her situation, Ribet asked three of X’s other instructors,
+gender studies professor Grace Hong, law lecturer Claudia Peña and gender
+studies associate professor Sarah Haley, to help advocate for her to Student
+Affairs and Financial Aid and Scholarships.
 
-In December of 2016, X said that she was facing an enrollment hold on her UCLA
-account because she had an unpaid housing balance. The unpaid housing balance
-affected her financial aid disbursement.
+Ribet said she, Hong, Haley and Peña drafted a memorandum to send to Student
+Affairs detailing how X accrued fees while living in university apartments, with
+the intent of restoring X’s enrollment and, subsequently, her financial aid.
 
-She then reached out to a faculty mentor whom she took a class with, visiting
-professor Beth Ribet, to receive additional support.
+Ribet said she received a response to the memorandum the night before X’s
+opportunity to enroll in courses for winter quarter closed, which stated the
+holds had been lifted.
 
-After X explained how university policies contributed to her homelessness, Ribet
-requested the involvement of three of X’s other professors, including professors
-Grace Hong, Claudia Peña and Sarah Haley, who quickly became her personal team
-of faculty advocates.
+However, the next week, X was dropped from her classes for not meeting the
+satisfactory academic progress unit requirement because she had an incomplete
+course from spring 2016.
 
-“As an individual student, I didn’t have that much power,” X said.
+Again, Ribet and the other instructors intervened. X wrote the final essays
+required to complete the course, and her financial aid was restored after her
+grade was changed.
 
-By winter quarter 2017, X said UCLA threatened her with suspension because of
-her unpaid housing balance, and she added by that time her financial aid and
-enrollment were suspended.
+“To keep getting those notices was such a hard burden on X ... every time you’re
+told your financial aid is being taken away, you wound up homeless,” Ribet said.
 
-Ribet said that she, Hong, Haley and Peña intervened with the Office of Student
-Affairs on X’s behalf. They drafted a several page memoranda detailing what had
-happened to X while living in UCLA Housing. Next, Ribet said they visited the
-Office of Student Affairs in person to restore X’s enrollment and financial aid.
+Ribet said that X appealed her remaining housing debt, and UCLA eventually
+waived her housing payments from the previous year.
 
-X said she as she continued to have faculty intervene for her in the Office of
-Student Affairs, the office began to cooperate with her in order to comply with
-X’s disability accommodations, among other reasons.
+Hong, who also teaches in the Asian American studies department, said trying to
+help X has changed her perspective of how the university attempts to support
+students.
 
-“That was all within the week we all found out that X was about to lose complete
-access to UCLA,” Ribet said.
+“The bureaucratic insanity … makes it hard to see who to go to and who is in
+charge of what,” Hong said.
 
-Ribet said she recalls receiving an email the night before X was supposed to
-lose access notifying her the enrollment holds had been lifted. She added X then
-enrolled in her classes, but was consequently dropped the following week because
-of a non-payment hold with the Financial Aid Office.
-
-Again, Ribet and the professors intervened. She said Student Affairs would not
-remove the hold until X had completed all of her coursework for which she still
-had ‘incompletes’ from spring 2016.
-
-She added that while X was homeless and struggling with the holds, X finished
-writing the final two essays to complete her course from spring.
-
-“After some bureaucratic mixups, her financial aid was restored,” Ribet said.
-She added although grade changes had been approved, Student Affairs had
-difficulty locating the record.
-
-Ribet said X was then placed in emergency housing before settling in regular
-housing. However, X had requested individual housing following experiences with
-randomly assigned roommates she said were traumatic, but the cost of her studio
-apartment exceeded her total financial aid package and amount allocated for
-living expenses.
-
-Ribet said that X appealed her remaining housing debt with UCLA, and eventually
-had her housing payments from the year prior waived.
-
-In the Spring of 2017, Ribet said X was subjected to another financial aid hold,
-which turned out to be a university error.
-
-“To keep getting those notices was such a hard burden on X ... (if) every time
-you’re told your financial aid is being taken away, you wound up homeless,”
-Ribet said.
-
-X said she has since faced an additional enrollment hold during summer 2017 due
-to a $30 ASUCLA textbook fee. She added although ASUCLA is not a UCLA entity,
-they have access to freeze student enrollment> can we check this?
-
-“I’ve noticed this with other students,” Ribet said. “When professors don’t
-cooperate (with a student’s disability accommodation), or don’t agree to give a
-student the accommodation they’re entitled to, it’s often not resolved … (and)
-UCLA doesn’t step in (to resolve it).”
-
-“When I was homeless I felt like someone coming out of an abusive relationship
-would feel like,” X said. “I felt like I was in an abusive relationship with
-UCLA.”
-
-Professor Grace Hong, who teaches in both the Asian American Studies and Gender
-Studies departments, said she has witnessed X be discriminated against by
-different UCLA entities.
-
-“The level of dismissiveness, disrespect, I would even say contempt, that I have
-personally seen UCLA staff show to X in front of me… has been shocking,” Hong
-said.
-
-On one occasion when she accompanied X to the Student Affairs Office to address
-her financial aid concerns, Hong said she thought the financial aid officer
-acted like a collections agency by asking X how much total money she owned.
-
-Hong added on another occasion, UCLA Housing employees cast doubt on whether the
-instances of discrimination and abuse X reported actually happened by using
-conditional language: ‘if’ assault and discrimination occurred, not ‘when.’
-
-Ribet added that at a meeting with both UCLA Housing and the Office of Student
-Affairs, she said she remembers hearing an Office of Student Affairs employee
-say X had been making poor financial choices, and implied that was part of the
-reason she was homeless.
-
-“They had judgments about her being a caretaker...for a mentally ill parent,”
-Ribet said.
-
-Hong added that not only did she think Student Affairs implied X must be
-mismanaging her finances, but that the four faculty members who were identifying
-themselves as her advocates would no longer want to advocate for X if she had
-been financially irresponsible.
-
-“There was this assumption that once (Student Affairs) explained to us how much
-they had tried to help, and (that) X had made these bad choices and wasn’t
-deserving of more help, that we would fall in line in pathologizing X,” Hong
-said.
-
-Hong said her experience helping X navigate various student support systems has
-changed her perspective of how the university attempts to support students.
-
-“The bureaucratic insanity that is housing, student affairs, CAE, financial aid,
-ECRT, the registrar...makes it hard to see who to go to and who is in charge of
-what,” Hong said.
-
-She added she believes the system ultimately negatively affects diversity on
-campus. Hong said that oftentimes, underrepresented students can only find safe
-comfortable environments in activist groups.
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-Looking Forward
-
-X is currently in a University Housing studio apartment and is preparing for law
+X is currently in a UCLA Housing studio apartment and preparing to apply for law
 school.
 
-She wants to share her story now, before she graduates, because she knows there
-are other students who haven’t been able to come forward about similar
-situations.
+She said she wants to share her story now, before she graduates, because she
+believes there are other students who haven’t been able to come forward about
+similar situations.
 
 “I’m tired all the time and still going through a lot of trauma,” X said. “I
 know I’m a survivor, I know it takes a lot of strength to have gotten through
-all of this, to survive everything UCLA has thrown at me.”
+all of this.”
 
-Painting, photography and poetry are outlets for X’s stress and trauma. She even
+Painting, photography and poetry are outlets for X’s stress and trauma. She
 performs stand-up comedy when she has time between work and classes.
 
-“I use art as a form of healing and activism,” X said. “I work with students (in
-local, underserved communities) where we write poetry (and) draw on photos to
-express how different forms of oppression impact us.”
+X said she volunteers with students in local, underserved communities to combine
+activism and art.
+
+“We write poetry (and) draw on photos to express how different forms of
+oppression impact us,” she said.
 
 X said she plans to attend law school to help others who experience race, class
-and gender discrimination.
-
-Before she begins to work in law and policy in the future, X said she hopes UCLA
-will address current policies, including holding UCLA Housing residents
-accountable to anti-discrimination policies.
+and gender discrimination. She added she hopes UCLA will address its policies
+surrounding these issues, including holding UCLA Housing residents accountable
+to anti-discrimination policies.
 
 “I’m deeply admiring of X as an intellectual, as a community organizer, as my
 student and mentee,” Ribet said. “Her resilience, I think, has awed all of us
-and I am so deeplygrateful that she reached out … for support because it would
+and I am so deeply grateful that she reached out … for support because it would
 have been a real loss for this campus if she had not been able to continue and
 graduate.”
-
-For now, X continues to look at the stars and paint her dreams.
