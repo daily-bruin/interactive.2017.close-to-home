@@ -1,0 +1,36 @@
+@charset "utf-8";
+.guess-the-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.guess-the-number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 230px;
+  background-color: lightblue;
+}
+.rotate-button {
+  margin: 0 0 0 0;
+}
+.range-container {
+  overflow: hidden;
+}
+.range {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  vertical-align: text-top;
+  width: 170px;
+  font-size: 30px;
+}
+.left-rotate-button {
+  visibility: hidden;
+  pointer-events: none;
+}
+.increasing-number {
+  font-size: 30px;
+  text-align: center;
+}

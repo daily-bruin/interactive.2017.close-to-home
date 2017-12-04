@@ -1,15 +1,16 @@
-@import 'bar-chart-style.scss';
-@import 'cover-photo';
-@import 'footer';
-@import 'menubar';
-@import 'hr';
+@import "bar-chart-style.scss";
+@import "guess-the-number.scss";
+@import "cover-photo";
+@import "footer";
+@import "menubar";
+@import "hr";
 
 body {
-  font-family: 'Spectral';
+  font-family: "Spectral";
 }
 
 h3 {
-  font-family: 'Barlow Semi Condensed';
+  font-family: "Barlow Semi Condensed";
 }
 
 .article-content {
