@@ -276,3 +276,10 @@ $(window).waypoint(
 );
 
 $(window).scroll();
+
+$('#popup-ecrt').waypoint(
+  direction => {
+    console.log('hi');
+  },
+  { offset: '50%' }
+);

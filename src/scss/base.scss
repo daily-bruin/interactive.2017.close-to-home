@@ -1,8 +1,10 @@
+@import 'variables';
 @import 'bar-chart-style.scss';
 @import 'cover-photo';
 @import 'footer';
 @import 'menubar';
 @import 'hr';
+@import 'popup';
 
 body {
   font-family: 'Spectral';
@@ -61,10 +63,10 @@ h3 {
 }
 
 .interview-font {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 900px;
   letter-spacing: 2px;
-  text-transform:uppercase;
+  text-transform: uppercase;
   margin-right: 5px;
 }
