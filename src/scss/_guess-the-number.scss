@@ -34,7 +34,11 @@
   font-size: 30px;
   text-align: center;
 }
-&.bar-source &.numguess-source {
+.bar-source {
+  color: darkgrey;
+  font-size: 10px;
+}
+.numguess-source {
   color: darkgrey;
   font-size: 10px;
 }
