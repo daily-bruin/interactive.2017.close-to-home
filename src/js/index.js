@@ -289,7 +289,7 @@ $(document).ready(() => {
     .append('text')
     .text(rotateGuess[rotateGuessIdx]);
 
-  animateArrow();
+  // animateArrow();
   /*
   $('.bar-guess-button').fadeOut(1);
   $('.bar-guess-button').click(() => {
