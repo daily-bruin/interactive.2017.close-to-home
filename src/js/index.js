@@ -277,9 +277,17 @@ $(window).waypoint(
 
 $(window).scroll();
 
+const waypoint = new Waypoint({
+  element: document.getElementById('popup-ecrt'),
+  handler: () => console.log('hello'),
+  offset: '50%',
+});
+
+/*
 $('#popup-ecrt').waypoint(
   direction => {
-    console.log('hi');
+    console.log('hello');
   },
   { offset: '50%' }
 );
+*/
