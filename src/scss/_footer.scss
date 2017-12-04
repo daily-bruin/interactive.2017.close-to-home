@@ -1,6 +1,3 @@
-@import "colors";
-@import "utils";
-
 footer {
   background-color: $header-footer-black;
   padding: 10px 0;
@@ -13,7 +10,7 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
-  font-family: "Spectral";
+  font-family: 'Spectral';
   padding: 10px;
 }
 
