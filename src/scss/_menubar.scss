@@ -22,16 +22,17 @@ li a:hover {
 }
 
 .menu .menu-text {
-  transform: translateY(2px);
-}
-
-.menu-text {
+  transform: translateY(5px);
+  padding-left: 0;
   font-size: 24px;
-  border-left: 2px white solid;
 }
 
-.menu-text:hover {
-  color: $spacing-grey;
+.menu li {
+  transform: translateY(4px);
+}
+
+.menu > .logo {
+  transform: translate(0);
 }
 
 .top-bar {
@@ -158,5 +159,5 @@ $navigation__transition: max-height 0.5s ease-in-out;
 }
 
 .dropdown.menu a {
-  padding: .7rem 1rem 0rem 1rem;
+  padding: 0.7rem 1rem 0rem 1rem;
 }
