@@ -1,5 +1,6 @@
 import hello from './module';
 /* Increasing number animation */
+/* Need */
 const format = d3.format(',d');
 
 d3
@@ -11,19 +12,7 @@ d3
     return t => d3.select('.increasing-number').text(format(i(t)));
   });
 
-/*
-d3
-  .select('.increasing-number')
-  .transition()
-  .duration(1500)
-  .tween('text', () => {
-    const that = d3.select(this);
-    const i = d3.interpolateNumber(that.text().replace(/,/g, ''), 1691);
-    return t => that.text(format(i(t)));
-  });
-  */
 /* bar chart */
-
 const trueValue = 0.42;
 const startGuess = 0.5;
 const minXVal = 0.001;
@@ -71,18 +60,24 @@ const svgbrushX = svgX
   .call(brushX.move, d => [0, d.value].map(scaleX));
 
 svgbrushX
+  .append('g')
   .append('text')
-  .attr('x', d => scaleX(d.value) - 10)
+  .attr('x', d => scaleX(d.value) - 13)
   .attr('y', (d, i) => y(i) + y(0.5))
   .attr('dy', '.35em')
   .attr('dx', -8)
   .attr('class', 'left-arrow')
   .style('fill', 'black')
   .style('pointer-events', 'none')
+  .style(
+    'font-family',
+    "Helvetica, 'DejaVu Sans', 'Arial Unicode MS', 'Lucida Sans Unicode', sans-serif"
+  )
+  .style('font-size', '30px')
   .text('\u25C4 ')
   .append('g');
-
 svgbrushX
+  .append('g')
   .append('text')
   .attr('x', d => scaleX(d.value) + 10)
   .attr('y', (d, i) => y(i) + y(0.5))
@@ -91,7 +86,24 @@ svgbrushX
   .attr('class', 'right-arrow')
   .style('fill', 'black')
   .style('pointer-events', 'none')
+  .style(
+    'font-family',
+    "Helvetica, 'DejaVu Sans', 'Arial Unicode MS', 'Lucida Sans Unicode', sans-serif"
+  )
+  .style('font-size', '30px')
   .text(' \u25BA')
+  .append('g');
+
+svgbrushX
+  .append('g')
+  .append('text')
+  .attr('class', 'guess-percent')
+  .attr('x', d => scaleX(d.value) + 10)
+  .attr('y', (d, i) => y(i) + y(0.5))
+  .attr('dy', '.35em')
+  .attr('dx', -7)
+  .style('fill', 'black')
+  .style('pointer-events', 'none')
   .append('g');
 
 $('.handle--w').css('pointer-events', 'none');
@@ -102,16 +114,18 @@ $('.handle--e')
 function update() {
   $('.guess-button').fadeIn('slow');
   $('.left-arrow').remove();
-  d3.select('text').transition();
-  svgbrushX.select('text').attr('class', '');
-  svgbrushX.select('text').style('fill', d => {
-    if (d.value < 0.93) return 'black';
-    return 'white';
-  });
+  $('.right-arrow').remove();
+  svgbrushX
+    .select('.guess-percent')
+    .attr('class', 'guess-percent')
+    .style('fill', d => {
+      if (d.value < 0.93) return 'black';
+      return 'white';
+    });
 
   svgbrushX
     .call(brushX.move, d => [0, d.value].map(scaleX))
-    .selectAll('text')
+    .select('.guess-percent')
     .attr('x', d => scaleX(d.value) - 10)
     .attr('dx', d => {
       if (d.value < 0.93) return 15;
@@ -175,10 +189,7 @@ $(document).ready(() => {
   $('.guess-button').fadeOut(1);
   $('.guess-button').click(() => {
     $('.guess-button').remove();
-    /*
-      .style('pointer-events', 'none')
-      could make guess highlight-able in here
-    */
+
     const svgY = d3
       .select('body')
       .select('.answer-bar-chart')
@@ -234,31 +245,34 @@ function setTitlePhotoHeight() {
 (function fadeBar() {
   $(document).ready(() => {
     $(window).scroll(function scrollEffects() {
-      if ($(this).scrollTop() >= $(window).height()) {
-        $('.top-bar').addClass('fix-bar');
-        $('.top-bar-mobile').addClass('fix-bar');
+      if ($(this).scrollTop() >= $(window).height() + 50) {
+        $('.top-bar').fadeIn();
       } else {
-        $('.top-bar').removeClass('fix-bar');
-        $('.top-bar-mobile').removeClass('fix-bar');
+        $('.top-bar').fadeOut();
       }
     });
   });
 })(jQuery);
+
 // function hid
 
 setTitlePhotoHeight();
 
 $(window).resize(setTitlePhotoHeight);
-
-$(window).waypoint(() => {
-  $('.cover-photo__header').fadeIn();
-  $('.db-logo').fadeIn();
-});
+$(window).waypoint(
+  () => {
+    $('.cover-photo__header').fadeIn();
+    $('.db-logo').fadeIn();
+  },
+  { offset: -1 }
+);
 
 $(window).waypoint(
   () => {
     $('.cover-photo__header').fadeOut();
     $('.db-logo').fadeOut();
   },
-  { offset: -1 }
+  { offset: -2 }
 );
+
+$(window).scroll();
