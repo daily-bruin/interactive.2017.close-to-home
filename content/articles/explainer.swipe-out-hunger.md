@@ -1,10 +1,8 @@
-This will be accompanied by a graphic on Swipe Out Hunger
-
 Donna Heikali, a fourth-year psychobiology student and vice president of Swipe
 Out Hunger, said the organization has shifted its focus since she joined during
 her sophomore year.
 
-When Heikali first joined, she said students were primarily concerned with
+Heikali said when she first joined, students were primarily concerned with
 collecting swipes and converting them to vouchers. Now, the club focuses on
 raising awareness of the opportunity to enroll in CalFresh and its partnership
 with Food Forward.
@@ -15,25 +13,24 @@ other criteria.
 
 Swipe Out Hunger and Food Forward began a partnership in 2016 and work together
 every week to collect fresh produce from the Thursday farmers market in
-Westwood, Heikali said. Students collect the produce that vendors would
-otherwise leave behind and distribute it to the Community Programs Office Food
-Closet, graduate student apartments and other LA homeless shelters, and the
-vendors receive a tax break for their contributions.
+Westwood, Heikali said. Students distribute the produce vendors would otherwise
+leave behind to the Community Programs Office Food Closet, graduate student
+apartments and Los Angeles homeless shelters, and the vendors receive a tax
+break for their contributions.
 
-Heikali said she realized how important resources like Swipe Out Hunger are to
-UCLA students when she participated in a “move day” with Swipe Out Hunger during
-her second year. Move days transport donated food from the dining halls to the
-CPO Food Closet.
+Additionally, Swipe Out Hunger
+[partnered](https://femmagazine.com/homelessness-awareness-week-at-ucla/) with
+The Mobile Clinic Project at UCLA to host the campus’ first Homelessness
+Awareness Week during spring quarter.
+
+Heikali said she realized how important food security resources are to UCLA
+students when she participated in a “move day” with Swipe Out Hunger during her
+second year. Move days transport donated food from the dining halls to the CPO
+Food Closet.
 
 “There was a book (in CPO) that you could write things in, and one person wrote
 that the food closet was saving their life,” Heikali said. “That changed
 everything for me.”
-
-Swipe Out Hunger
-[partnered](https://femmagazine.com/homelessness-awareness-week-at-ucla/) with
-The Mobile Clinic Project at UCLA to host Homelessness Awareness Week during
-spring quarter. Heikali said the organization hopes to become more involved with
-CalFresh in the future.
 
 Eddie Munguia, a third-year psychology student and co-president of Swipe Out
 Hunger, said his family is originally from Mexico, but he grew up in a
