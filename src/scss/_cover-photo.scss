@@ -32,12 +32,27 @@
 }
 
 .cover-photo__header {
+  margin-bottom: auto;
+  font-family: 'Barlow Semi Condensed';
+
+  h1 {
+    font-family: 'Barlow Semi Condensed';
+    margin-bottom: auto;
+    line-height: 3rem;
+    max-width: 30rem;
+  }
+}
+
+.cover-photo__header--1 {
   text-align: right;
   color: white;
   margin: 4.6875rem;
   margin-right: 0.325rem;
-  margin-bottom: auto;
-  font-family: 'Barlow Semi Condensed';
+}
+
+.cover-photo__header--2 {
+  text-align: left;
+  color: black;
 }
 
 .cover-photo__subhead {
