@@ -236,8 +236,10 @@ function setTitlePhotoHeight() {
     $(window).scroll(function scrollEffects() {
       if ($(this).scrollTop() >= $(window).height()) {
         $('.top-bar').addClass('fix-bar');
+        $('.top-bar-mobile').addClass('fix-bar');
       } else {
         $('.top-bar').removeClass('fix-bar');
+        $('.top-bar-mobile').removeClass('fix-bar');
       }
     });
   });

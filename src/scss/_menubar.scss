@@ -14,6 +14,7 @@ li a {
   text-decoration: none;
   color: white;
   margin: 10px;
+  margin: -0.7rem;
 }
 
 li a:hover {
@@ -28,6 +29,11 @@ li a:hover {
 
 .menu-text:hover {
   color: black;
+}
+
+.fix-bar{
+position: fixed;
+top: 0;
 }
 
 .top-bar {
@@ -60,7 +66,6 @@ li a:hover {
 .menu-text-mobile li a{
   font-family: 'Barlow Semi Condensed';
   float: center;
-  margin-left: 3px;
 }
 
 $burger--thickness: 4px;
