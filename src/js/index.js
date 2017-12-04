@@ -1,9 +1,8 @@
 import hello from './module';
 /* Increasing number animation */
-/* Need */
-const format = d3.format(',d');
 const numGuess1 = 1691;
-let rotateGuessIdx = 0;
+const containerName = '.guess-the-number-container';
+const numGuessSource = '...source...';
 const rotateGuess = [
   '0 - 500',
   '500 - 1,000',
@@ -11,60 +10,63 @@ const rotateGuess = [
   '1,500 - 2,000',
 ];
 
-$('.left-rotate-button').click(() => {
+const format = d3.format(',d');
+let rotateGuessIdx = 0;
+
+$(`${containerName} .left-rotate-button`).click(() => {
   rotateGuessIdx -= 1;
   if (rotateGuessIdx < 0) rotateGuessIdx = 0;
-  //  const curLeft = $('.range').css('left');
-  //  $('.range').animate({ left: '1000px' }, 'slow');
-  d3.select('.range').text(rotateGuess[rotateGuessIdx]);
+  d3.select(`${containerName} .range`).text(rotateGuess[rotateGuessIdx]);
 });
-$('.right-rotate-button').click(() => {
+$(`${containerName} .right-rotate-button`).click(() => {
   rotateGuessIdx += 1;
   if (rotateGuessIdx > 3) rotateGuessIdx = 3;
-  d3.select('.range').text(rotateGuess[rotateGuessIdx]);
+  d3.select(`${containerName} .range`).text(rotateGuess[rotateGuessIdx]);
 });
 
-$('.rotate-button').click(() => {
+$(`${containerName} .rotate-button`).click(() => {
   if (rotateGuessIdx === 0) {
-    $('.left-rotate-button').css({
+    $(`${containerName} .left-rotate-button`).css({
       visibility: 'hidden',
       'pointer-events': 'none',
     });
   } else if (rotateGuessIdx === 3) {
-    $('.right-rotate-button').css({
+    $(`${containerName} .right-rotate-button`).css({
       visibility: 'hidden',
       'pointer-events': 'none',
     });
   } else {
-    $('.left-rotate-button').css({
+    $(`${containerName} .left-rotate-button`).css({
       visibility: 'visible',
       'pointer-events': 'all',
     });
-    $('.right-rotate-button').css({
+    $(`${containerName} .right-rotate-button`).css({
       visibility: 'visible',
       'pointer-events': 'all',
     });
   }
 });
 
-$('.num-guess-button').click(() => {
-  $('.left-rotate-button').remove();
-  $('.right-rotate-button').remove();
-  $('.range').css('width', 300);
-  d3.select('.range').text('Guess: ' + rotateGuess[rotateGuessIdx]);
-  $('.increasing-number').fadeIn(800);
+$(`${containerName} .num-guess-button`).click(() => {
+  $(`${containerName} .left-rotate-button`).remove();
+  $(`${containerName} .right-rotate-button`).remove();
+  $(`${containerName} .range`).css('width', 300);
   d3
-    .select('.increasing-number')
+    .select(`${containerName} .range`)
+    .text(`Guess: ${rotateGuess[rotateGuessIdx]}`);
+  $(`${containerName} .increasing-number`).fadeIn(800);
+  d3
+    .select(`${containerName} .increasing-number`)
     .transition()
     .duration(1500)
     .tween('text', () => {
       const i = d3.interpolateNumber(0, numGuess1);
       return t =>
         d3
-          .select('.range')
-          .text('Guess: ' + rotateGuess[rotateGuessIdx])
+          .select(`${containerName} .range`)
+          .text(`Guess: ${rotateGuess[rotateGuessIdx]}`)
           .append('text')
-          .text('Actual: ' + format(i(t)));
+          .text(`Actual: ${format(i(t))}`);
     })
     .on('end', () => {
       let numResult = '';
@@ -73,27 +75,27 @@ $('.num-guess-button').click(() => {
         numResult += 'underestimated ';
       else numResult += 'correctly estimated ';
       d3
-        .select('.guess-the-number-container')
+        .select(`${containerName}`)
         .append('text')
         .attr('class', 'numguess1-result');
-      $('.numguess1-result')
+      $(`${containerName} .numguess1-result`)
         .hide()
-        .append('You ' + numResult + 'the number.')
+        .append(`You ${numResult} the number.`)
         .fadeIn();
       d3
-        .select('.guess-the-number-container')
+        .select(`${containerName}`)
         .append('text')
         .attr('class', 'numguess1-source');
-      $('.numguess1-source')
+      $(`${containerName} .numguess1-source`)
         .hide()
-        .append('...source...')
+        .append(numGuessSource)
         .fadeIn();
     });
-  $('.guess-the-number').css({
+  $(`${containerName} .guess-the-number`).css({
     'flex-direction': 'column',
     'justify-content': 'center',
   });
-  $('.num-guess-button').remove();
+  $(`${containerName} .num-guess-button`).remove();
 });
 
 /* bar chart */
