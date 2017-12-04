@@ -1,6 +1,30 @@
-@import 'colors';
-@import 'utils';
+@import "colors";
+@import "utils";
 
 footer {
-  background-color: black;
+  background-color: #b5b6b7;
+  padding: 10px 0;
+}
+
+.column {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-family: "Spectral";
+  padding: 10px;
+}
+
+footer a:hover {
+  color: black;
+}
+
+#footer-left {
+  margin-top: 10px;
+}
+
+#footer-right {
+  margin-top: 13px;
 }
