@@ -1,13 +1,12 @@
 .top-bar,
 .top-bar ul {
-  background-color: #b5b6b7;
+  background-color: $header-footer-black;
   margin: 0;
   padding: 0;
 }
 
 .db-logo1 {
   margin: 5px;
-  margin-bottom: 20px;
 }
 
 li a {
@@ -18,17 +17,22 @@ li a {
 }
 
 li a:hover {
-  color: black;
+  color: $spacing-grey;
   text-decoration: underline;
 }
 
-.menu-text {
+.menu .menu-text {
+  transform: translateY(5px);
+  padding-left: 0;
   font-size: 24px;
-  border-left: 2px solid white;
 }
 
-.menu-text:hover {
-  color: black;
+.menu li {
+  transform: translateY(4px);
+}
+
+.menu > .logo {
+  transform: translate(0);
 }
 
 .top-bar {
@@ -44,11 +48,14 @@ li a:hover {
   width: 100%;
   color: white;
   z-index: 9999;
+  position: fixed;
+  top: 0;
+  display: none;
 }
 
 .top-bar-mobile,
 .top-bar-mobile ul {
-  background-color: #b5b6b7;
+  background-color: $header-footer-black;
   margin: 0;
   padding: 0;
 }
@@ -59,11 +66,15 @@ li a:hover {
 
 .mobile-nav-title {
   font-size: 1.4rem;
+  a {
+    color: white;
+  }
 }
 
 .menu-text-mobile li a {
   font-family: 'Barlow Semi Condensed';
-  float: center;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
 }
 
 $burger--thickness: 4px;
@@ -76,7 +87,7 @@ $burger--thickness: 4px;
   background: none;
   outline: 0;
   padding: 0;
-  margin-top: -50px;
+  margin-top: -38px;
   cursor: pointer;
 
   border-bottom: $burger--thickness solid white;
@@ -119,20 +130,16 @@ $burger--thickness: 4px;
 .burger-check:checked ~ .burger {
   border-bottom: $burger--thickness solid transparent;
   transition: border-bottom 0.8s ease-in-out;
-  -webkit-transition: border-bottom 0.8s ease-in-out;
+  padding-top: 0.5rem;
 
   &:before {
     transform: rotate(-405deg) translateY(1px) translateX(-3px);
-    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
     transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
 
   &:after {
     transform: rotate(405deg) translateY(-4px) translateX(-5px);
-    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
     transition: transform 0.5s ease-in-out;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
 }
 
@@ -142,7 +149,6 @@ $navigation__transition: max-height 0.5s ease-in-out;
 .navigation {
   overflow: hidden;
   max-height: 0;
-
   transition: $navigation__transition;
 }
 
@@ -153,6 +159,5 @@ $navigation__transition: max-height 0.5s ease-in-out;
 }
 
 .dropdown.menu a {
-  padding: 0;
-  padding-bottom: 10px;
+  padding: 0.7rem 1rem 0rem 1rem;
 }

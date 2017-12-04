@@ -1,5 +1,8 @@
 {% extends "./nunjucks/templates/default.njk" %}
 
+{% set title = "Van Life | Daily Bruin" %}
+{% set social_image = "img/web.enterprise.seth.wing.picA.MHodges.jpg" %}
+
 {% block coverphoto %}
   {% include "nunjucks/partials/cover-photos/cover-photo-5.njk" %}
 {% endblock %}
@@ -79,4 +82,8 @@ roof over my head, I wasn’t out on the street – I had the van.”</p>
 </div>
 </div>
 
+{% endblock %}
+
+{% block footer %}
+  {% include "nunjucks/partials/footer/footer-seth.njk" %}
 {% endblock %}

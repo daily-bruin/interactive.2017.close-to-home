@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US">
+<html class="no-js" lang="en-US" dir="ltr">
 
 {% include "../partials/head.njk" %}
 
@@ -13,7 +13,7 @@
     {% block content %}{% endblock %}
   </div>
 
-  {% include "../partials/footer.njk" %}
+  {% block footer %}{% endblock %}
   {% include "../partials/scripts.njk" %}
 </body>
 

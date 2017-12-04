@@ -26,7 +26,7 @@ import del from 'del';
 
 const browserSync = bs.create();
 
-gulp.task('images:dev', () => gulp.src('src/img/*').pipe(gulp.dest('dev/img')));
+gulp.task('images:dev', () => gulp.src('src/img/**').pipe(gulp.dest('dev/img')));
 
 gulp.task('images:prod', () =>
   gulp
