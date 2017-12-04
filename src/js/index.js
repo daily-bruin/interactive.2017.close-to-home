@@ -2,15 +2,99 @@ import hello from './module';
 /* Increasing number animation */
 /* Need */
 const format = d3.format(',d');
+const numGuess1 = 1691;
+let rotateGuessIdx = 0;
+const rotateGuess = [
+  '0 - 500',
+  '500 - 1,000',
+  '1,000 - 1,500',
+  '1,500 - 2,000',
+];
 
-d3
-  .select('.increasing-number')
-  .transition()
-  .duration(1000)
-  .tween('text', () => {
-    const i = d3.interpolateNumber(0, 1691);
-    return t => d3.select('.increasing-number').text(format(i(t)));
+$('.left-rotate-button').click(() => {
+  rotateGuessIdx -= 1;
+  if (rotateGuessIdx < 0) rotateGuessIdx = 0;
+  //  const curLeft = $('.range').css('left');
+  //  $('.range').animate({ left: '1000px' }, 'slow');
+  d3.select('.range').text(rotateGuess[rotateGuessIdx]);
+});
+$('.right-rotate-button').click(() => {
+  rotateGuessIdx += 1;
+  if (rotateGuessIdx > 3) rotateGuessIdx = 3;
+  d3.select('.range').text(rotateGuess[rotateGuessIdx]);
+});
+
+$('.rotate-button').click(() => {
+  if (rotateGuessIdx === 0) {
+    $('.left-rotate-button').css({
+      visibility: 'hidden',
+      'pointer-events': 'none',
+    });
+  } else if (rotateGuessIdx === 3) {
+    $('.right-rotate-button').css({
+      visibility: 'hidden',
+      'pointer-events': 'none',
+    });
+  } else {
+    $('.left-rotate-button').css({
+      visibility: 'visible',
+      'pointer-events': 'all',
+    });
+    $('.right-rotate-button').css({
+      visibility: 'visible',
+      'pointer-events': 'all',
+    });
+  }
+});
+
+$('.num-guess-button').click(() => {
+  $('.left-rotate-button').remove();
+  $('.right-rotate-button').remove();
+  $('.range').css('width', 300);
+  d3.select('.range').text('Guess: ' + rotateGuess[rotateGuessIdx]);
+  $('.increasing-number').fadeIn(800);
+  d3
+    .select('.increasing-number')
+    .transition()
+    .duration(1500)
+    .tween('text', () => {
+      const i = d3.interpolateNumber(0, numGuess1);
+      return t =>
+        d3
+          .select('.range')
+          .text('Guess: ' + rotateGuess[rotateGuessIdx])
+          .append('text')
+          .text('Actual: ' + format(i(t)));
+    })
+    .on('end', () => {
+      let numResult = '';
+      if (numGuess1 < rotateGuessIdx * 500) numResult += 'overestimated ';
+      else if (numGuess1 > rotateGuessIdx * 500 + 500)
+        numResult += 'underestimated ';
+      else numResult += 'correctly estimated ';
+      d3
+        .select('.guess-the-number-container')
+        .append('text')
+        .attr('class', 'numguess1-result');
+      $('.numguess1-result')
+        .hide()
+        .append('You ' + numResult + 'the number.')
+        .fadeIn();
+      d3
+        .select('.guess-the-number-container')
+        .append('text')
+        .attr('class', 'numguess1-source');
+      $('.numguess1-source')
+        .hide()
+        .append('...source...')
+        .fadeIn();
+    });
+  $('.guess-the-number').css({
+    'flex-direction': 'column',
+    'justify-content': 'center',
   });
+  $('.num-guess-button').remove();
+});
 
 /* bar chart */
 const trueValue = 0.42;
@@ -112,7 +196,7 @@ $('.handle--e')
   .attr('x', $('.handle--e').attr('x') - 12);
 
 function update() {
-  $('.guess-button').fadeIn('slow');
+  $('.bar-guess-button').fadeIn('slow');
   $('.left-arrow').remove();
   $('.right-arrow').remove();
   svgbrushX
@@ -185,10 +269,16 @@ function animateArrow() {
 
 brushX.on('brush', brushmoveX).on('end', brushendX);
 $(document).ready(() => {
+  $('.increasing-number').fadeOut(1);
+  d3
+    .select('.range')
+    .append('text')
+    .text(rotateGuess[rotateGuessIdx]);
+  /**/
   animateArrow();
-  $('.guess-button').fadeOut(1);
-  $('.guess-button').click(() => {
-    $('.guess-button').remove();
+  $('.bar-guess-button').fadeOut(1);
+  $('.bar-guess-button').click(() => {
+    $('.bar-guess-button').remove();
 
     const svgY = d3
       .select('body')
@@ -218,21 +308,29 @@ $(document).ready(() => {
       .transition()
       .duration(1170)
       .attr('x', () => widthX * trueValue + 5)
-      .attr('y', 52);
+      .attr('y', 62);
     $('.handle').css('pointer-events', 'none');
     $('.handle').css('width', '1');
     let resultString = "It's ";
     const roundedGuess = d3.format('.0%')(data[0].value);
-    if (roundedGuess < d3.format('.0%')(trueValue - 0.025))
-      resultString += 'more than you expected<br>...source...';
-    else if (roundedGuess > d3.format('.0%')(trueValue + 0.025))
-      resultString += 'less than you expected<br>...source...';
-    else resultString += 'about what you expected<br>...source...';
+    if (roundedGuess < d3.format('.0%')(trueValue - 0.05))
+      resultString += 'more than you expected';
+    else if (roundedGuess > d3.format('.0%')(trueValue + 0.05))
+      resultString += 'less than you expected';
+    else resultString += 'about what you expected';
     /*
     const source =
       'source: http://ucop.edu/global-food-initiative/best-practices/food-access-security/student-food-access-and-security-study.pdf';
     */
-    $('.interactive-bar-chart-container').append(resultString);
+    d3
+      .select('.interactive-bar-chart-container')
+      .append('text')
+      .text(resultString);
+    d3
+      .select('.interactive-bar-chart-container')
+      .append('text')
+      .attr('class', 'numguess1-source')
+      .text('...source...');
   });
 });
 
