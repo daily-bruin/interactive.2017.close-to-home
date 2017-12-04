@@ -15,12 +15,12 @@ h3 {
 }
 
 .article-content {
-  margin: 20px;
-  width: 50rem;
+  // margin: 20px;
+  max-width: 50rem;
+  margin-top: 2rem;
   // margin-left: 25rem;
   // margin-right: 25rem;
   // line-height: 12px;
-  width: 600px;
 }
 
 .offset-photo-left {
