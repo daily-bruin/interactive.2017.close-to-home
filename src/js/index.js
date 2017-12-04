@@ -347,8 +347,10 @@ function setTitlePhotoHeight() {
     $(window).scroll(function scrollEffects() {
       if ($(this).scrollTop() >= $(window).height() + 50) {
         $('.top-bar').fadeIn();
+        $('.top-bar-mobile').fadeIn();
       } else {
         $('.top-bar').fadeOut();
+        $('.top-bar-mobile').fadeOut();
       }
     });
   });
