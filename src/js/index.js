@@ -2,7 +2,7 @@ import hello from './module';
 /* Increasing number animation */
 const numGuess1 = 1691;
 const containerName = '.guess-the-number-container';
-const numGuessSource = '...source...';
+const numGuessSource = 'Source: UCLA ECR Team';
 const rotateGuess = [
   '0 - 500',
   '500 - 1,000',
@@ -85,8 +85,8 @@ $(`${containerName} .num-guess-button`).click(() => {
       d3
         .select(`${containerName}`)
         .append('text')
-        .attr('class', 'numguess1-source');
-      $(`${containerName} .numguess1-source`)
+        .attr('class', 'numguess-source');
+      $(`${containerName} .numguess-source`)
         .hide()
         .append(numGuessSource)
         .fadeIn();
@@ -97,14 +97,15 @@ $(`${containerName} .num-guess-button`).click(() => {
   });
   $(`${containerName} .num-guess-button`).remove();
 });
-
-/* bar chart */
+/*
+/* bar chart
 const trueValue = 0.42;
 const startGuess = 0.5;
-const minXVal = 0.001;
+const minXVal = 0.009;
 const maxXVal = 1;
-const widthX = $('.interactive-bar-chart-container').width() * 0.9;
-const heightX = $('.interactive-bar-chart-container').height() * 0.23;
+let widthX = $('.interactive-bar-chart-container').width() * 0.9;
+let heightX = $('.interactive-bar-chart-container').height() * 0.23;
+$('.percent-guide').css('width', widthX);
 
 const data = [
   {
@@ -113,12 +114,12 @@ const data = [
   },
 ];
 
-const scaleX = d3
+let scaleX = d3
   .scaleLinear()
   .domain([minXVal, maxXVal])
   .rangeRound([0, widthX]);
 
-const y = d3
+let y = d3
   .scaleLinear()
   .domain([0, 1]) // data.length
   .rangeRound([0, heightX]);
@@ -127,8 +128,10 @@ const svgX = d3
   .select('body')
   .select('.interactive-bar-chart')
   .append('svg')
-  .attr('width', widthX)
   .attr('height', heightX)
+  .attr('viewBox', `0 0 ${widthX} ${heightX}`)
+  .attr('preserveAspectRatio', 'xMidYMid meet')
+  .attr('height', 116)
   .append('g');
 
 const brushX = d3
@@ -270,35 +273,49 @@ function animateArrow() {
 }
 
 brushX.on('brush', brushmoveX).on('end', brushendX);
+
+function barChartResize() {
+  widthX = $('.interactive-bar-chart-container').width() * 0.9;
+  heightX = $('.interactive-bar-chart-container').height() * 0.23;
+
+  $('.percent-guide').css('width', widthX);
+}
+$(window).resize(barChartResize);
+*/
 $(document).ready(() => {
   $('.increasing-number').fadeOut(1);
   d3
     .select('.range')
     .append('text')
     .text(rotateGuess[rotateGuessIdx]);
-  /**/
+
   animateArrow();
+  /*
   $('.bar-guess-button').fadeOut(1);
   $('.bar-guess-button').click(() => {
+
+    $(window).resize(barChartResize);
     $('.bar-guess-button').remove();
 
     const svgY = d3
       .select('body')
       .select('.answer-bar-chart')
       .append('svg')
-      .attr('width', widthX)
       .attr('height', heightX)
+      .attr('viewBox', `0 0 ${widthX} ${heightX}`)
+      .attr('height', 116)
+      .attr('preserveAspectRatio', 'xMidYMid meet')
       .append('g');
     svgY
       .append('rect')
       .style('fill', '#73b1ff')
-      .attr('x', '0')
       .attr('width', 0)
       .transition()
       .duration(1200)
       .attr('width', widthX * trueValue)
-      .attr('y', '0')
-      .attr('height', 214)
+      .attr('viewBox', `0 0 ${widthX} ${heightX}`)
+      .attr('preserveAspectRatio', 'xMidYMid meet')
+      .attr('height', 116)
       .attr('stroke', 'white')
       .attr('stroke-width', 1);
     svgY
@@ -313,6 +330,7 @@ $(document).ready(() => {
       .attr('y', 62);
     $('.handle').css('pointer-events', 'none');
     $('.handle').css('width', '1');
+    $(window).resize(barChartResize);
     let resultString = "It's ";
     const roundedGuess = d3.format('.0%')(data[0].value);
     if (roundedGuess < d3.format('.0%')(trueValue - 0.05))
@@ -323,7 +341,7 @@ $(document).ready(() => {
     /*
     const source =
       'source: http://ucop.edu/global-food-initiative/best-practices/food-access-security/student-food-access-and-security-study.pdf';
-    */
+
     d3
       .select('.interactive-bar-chart-container')
       .append('text')
@@ -332,8 +350,12 @@ $(document).ready(() => {
       .select('.interactive-bar-chart-container')
       .append('text')
       .attr('class', 'bar-source')
-      .text('...source...');
+      .text(
+        'Source: Martinez, S. M., Maynard, K., Ritchie, L. D. Student Food Access and Security Study. Retrieved from http://ucop.edu/global-food-initiative/best-practices/food-access-security/student-food-access-and-security-study.pdf'
+      );
+
   });
+  */
 });
 
 hello();
@@ -342,17 +364,13 @@ function setTitlePhotoHeight() {
   $('.cover-photo').height($(window).height());
 }
 
-(function fadeBar() {
-  $(document).ready(() => {
-    $(window).scroll(function scrollEffects() {
-      if ($(this).scrollTop() >= $(window).height() + 50) {
-        $('.top-bar').fadeIn();
-      } else {
-        $('.top-bar').fadeOut();
-      }
-    });
-  });
-})(jQuery);
+$(window).scroll(function scrollEffects() {
+  if ($(this).scrollTop() >= $(window).height() + 50) {
+    $('.top-bar').fadeIn();
+  } else {
+    $('.top-bar').fadeOut();
+  }
+});
 
 // function hid
 
@@ -374,5 +392,3 @@ $(window).waypoint(
   },
   { offset: -2 }
 );
-
-$(window).scroll();
