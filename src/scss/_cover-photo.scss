@@ -15,14 +15,15 @@
     center center fixed;
 }
 
-#cover-photo-5 {
-  background: url(../img/web.enterprise.seth.wing.picA.MHodges.jpg) no-repeat
-    center center fixed;
-}
-
 #cover-photo-3 {
   background: url(../img/luskin1.png) no-repeat center center fixed;
   background-size: 120% auto;
+}
+
+#cover-photo-5 {
+  background: url(../img/web.enterprise.seth.wing.picA.MHodges.jpg) no-repeat
+    center center fixed;
+  background-position: 75% 50%;
 }
 
 .db-logo {
@@ -39,6 +40,7 @@
     font-family: 'Barlow Semi Condensed';
     margin-bottom: auto;
     line-height: 3rem;
+    margin-bottom: 0.2rem;
   }
 }
 

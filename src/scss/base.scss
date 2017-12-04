@@ -1,8 +1,12 @@
-@import 'bar-chart-style.scss';
-@import 'cover-photo';
-@import 'footer';
+@import 'colors';
+@import 'utils';
+
+@import 'bar-chart-style';
+@import 'guess-the-number';
 @import 'menubar';
-@import 'hr';
+@import 'cover-photo';
+@import 'text';
+@import 'footer';
 
 body {
   font-family: 'Spectral';
@@ -10,61 +14,4 @@ body {
 
 h3 {
   font-family: 'Barlow Semi Condensed';
-}
-
-.article-content {
-  // margin: 20px;
-  max-width: 50rem;
-  margin-top: 2rem;
-  // margin-left: 25rem;
-  // margin-right: 25rem;
-  // line-height: 12px;
-}
-
-.offset-photo-left {
-  float: left;
-  width: 25rem;
-  margin-top: 7px;
-  margin-right: 30px;
-  margin-left: 200px;
-  margin-bottom: 22px;
-}
-
-.offset-photo-right {
-  float: right;
-  width: 25rem;
-  margin-top: 7px;
-  margin-right: 200px;
-  margin-left: 30px;
-  margin-bottom: 22px;
-}
-
-.wide-photos {
-  margin: 1rem;
-  margin-left: 0rem;
-  margin-right: 0rem;
-  width: 100%;
-}
-
-.photo-credit {
-  text-align: right;
-  margin-right: 3px;
-}
-
-.dropcap {
-  font-size: 400%;
-  float: left;
-  line-height: 60px;
-  padding-right: 8px;
-  padding-left: 3px;
-  padding-bottom: 4px;
-}
-
-.interview-font {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 900px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-right: 5px;
 }
