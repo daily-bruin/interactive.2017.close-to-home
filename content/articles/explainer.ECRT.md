@@ -1,5 +1,3 @@
-This will be accompanied by a graphic on the Economic Crisis Response Team
-
 The Economic Crisis Response Team, launched in 2008 as a subset of the Student
 Affairs office, assists students in immediate and dire financial crisis. There
 are four forms of aid students can receive through ECRT: meal vouchers,
