@@ -5,16 +5,6 @@
   // height: 500px;
 }
 
-#cover-photo-1 {
-  background: url(../img/web.enterprise.anonymous.DLee.jpg) no-repeat center
-    center fixed;
-}
-
-#cover-photo-2 {
-  background: url(../img/web.enterprise.paavo.monkkonen.DLee.jpg) no-repeat
-    center center fixed;
-}
-
 #cover-photo-5 {
   background: url(../img/web.enterprise.seth.wing.picA.MHodges.jpg) no-repeat
     center center fixed;
@@ -34,17 +24,6 @@
     line-height: 3rem;
   }
 }
-
-.cover-photo__header--1 {
-  text-align: right;
-  color: white;
-  margin: 4.6875rem;
-  margin-right: 0.325rem;
-}
-
-.cover-photo__header--2 {
-  text-align: left;
-  color: black;
 
   h1 {
     max-width: 30rem;
@@ -68,6 +47,12 @@
   height: 0.25rem;
   width: 3.125rem;
   background-color: white;
+}
+
+.black-line {
+  height: 0.25rem;
+  width: 3.125rem;
+  background-color: black;
 }
 
 .cover-photo__byline__author {
