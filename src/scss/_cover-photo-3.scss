@@ -28,9 +28,15 @@
   height: 0.25rem;
   width: 3.125rem;
   display: inline-block;
-  background-color: white;
 }
 
 .cover-photo__byline--3 {
   margin-top: 0.2rem;
+}
+
+.cover-photo__photo-credit--3 {
+  position: absolute;
+  bottom: 0.4rem;
+  right: 0.4rem;
+  color: black;
 }
