@@ -22,3 +22,24 @@ body {
 h3 {
   font-family: 'Barlow Semi Condensed';
 }
+
+.image {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image__image-attribution {
+  position: relative;
+  width: 100%;
+  font-family: 'Barlow Semi Condensed';
+  font-weight: bold;
+}
+
+.online-credit {
+  color: white;
+  font-size: 0.9rem;
+
+  a {
+    padding: 0;
+  }
+}

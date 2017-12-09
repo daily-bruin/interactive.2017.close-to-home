@@ -1,12 +1,12 @@
 /* Increasing number animation */
-const numGuess1 = 1691;
+const numGuess1 = 3084;
 const containerName = '.guess-the-number-container';
-const numGuessSource = 'Source: UCLA ECR Team';
+const numGuessSource = 'Source: Swipe Out Hunger';
 const rotateGuess = [
-  '0 - 500',
-  '500 - 1,000',
-  '1,000 - 1,500',
-  '1,500 - 2,000',
+  '0 - 1000',
+  '1,000 - 2,000',
+  '2,000 - 3,000',
+  '3,000 - 4,000',
 ];
 
 const format = d3.format(',d');
@@ -69,8 +69,8 @@ $(`${containerName} .num-guess-button`).click(() => {
     })
     .on('end', () => {
       let numResult = '';
-      if (numGuess1 < rotateGuessIdx * 500) numResult += 'overestimated ';
-      else if (numGuess1 > rotateGuessIdx * 500 + 500)
+      if (numGuess1 < rotateGuessIdx * 1000) numResult += 'overestimated ';
+      else if (numGuess1 > rotateGuessIdx * 1000 + 1000)
         numResult += 'underestimated ';
       else numResult += 'correctly estimated ';
       d3
